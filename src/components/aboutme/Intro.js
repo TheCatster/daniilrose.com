@@ -35,17 +35,6 @@ const IntroText = () => {
         Linux things (although finding time to write new articles can be
         challenging!).
       </p>
-      <p>
-        You can find me at my GitHub at
-        <a href="https://github.com/thecatster">
-          <em> The Catster</em>
-        </a>
-        , and more information about me with my{" "}
-        <a href="/cv.html">
-          <em> CV</em>
-        </a>
-        .
-      </p>
     </div>
   );
 };
