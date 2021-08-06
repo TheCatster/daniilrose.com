@@ -1,0 +1,82 @@
+.cv-container {
+  text-align: center;
+}
+
+.cv-linebreak {
+  border-style: dotted;
+}
+
+/*
+  Headings
+*/
+
+.cv-title {
+  color: lightblue;
+  font-size: 350%;
+  font-weight: bold;
+}
+
+.cv-subtitle {
+  color: goldenrod;
+}
+
+.cv-section-title {
+  text-align: left;
+}
+
+.cv-section-subtitle {
+  text-align: left;
+}
+
+@media (max-width: 50em) {
+  .cv-title {
+    font-size: 200%;
+  }
+
+  .cv-subtitle {
+    font-size: 90%;
+  }
+}
+
+/*
+  Content
+*/
+
+.cv-section-item {
+  text-align: left;
+}
+
+.cv-text {
+  text-align: left;
+}
+
+.cv-list {
+  text-align: left;
+  display: block;
+}
+
+.cv-link {
+  color: goldenrod;
+  text-decoration: none;
+}
+
+h3 {
+  color: deepskyblue;
+}
+
+h4 {
+  color: #ffa86a;
+}
+
+/*
+  Email
+*/
+
+.cryptedmail {
+  color: goldenrod;
+  text-decoration: none;
+}
+
+.cryptedmail:after {
+  content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
+}
