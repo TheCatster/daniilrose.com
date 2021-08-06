@@ -1,15 +1,11 @@
 import React, { Component } from "react";
-import Nav from "./Nav";
-import Intro from "./Intro";
-import Interests from "./Interests";
+import AboutMe from "./aboutme/AboutMe";
 
 class App extends Component {
   render() {
     return (
       <div className="container">
-        <Nav />
-        <Intro />
-        <Interests />
+        <AboutMe />
       </div>
     );
   }

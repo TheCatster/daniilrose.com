@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../img/danya.webp";
+import me from "../../img/danya.webp";
 
 const IntroText = () => {
   return (
