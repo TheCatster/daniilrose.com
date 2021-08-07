@@ -236,12 +236,11 @@ class Projects extends Component {
             className="box-border border-2 w-full md:max-w-xs lg:max-w-sm xl:max-w-lg p-4"
             target="_blank"
             rel="noopener noreferrer"
+            key={index}
           >
-            <div key={entry.name}>
-              <div className="flex flex-col flex-wrap gap-2">
-                <p>{entry.name}</p>
-                <p>{entry.description}</p>
-              </div>
+            <div className="flex flex-col flex-wrap gap-2">
+              <p>{entry.name}</p>
+              <p>{entry.description}</p>
             </div>
           </a>
         );
