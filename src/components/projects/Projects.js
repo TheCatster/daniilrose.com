@@ -22,18 +22,6 @@ class Projects extends Component {
         visibility: "public",
       },
       {
-        created: "2021-07-31T23:42:30+00:00",
-        description: " A dwl that just works, with vim keybindings.",
-        id: 56987,
-        name: "catsters-dwl",
-        owner: {
-          canonical_name: "~thecatster",
-          name: "thecatster",
-        },
-        updated: "2021-07-31T23:42:30+00:00",
-        visibility: "public",
-      },
-      {
         created: "2021-07-20T16:55:13+00:00",
         description:
           "My progress reading through the book Eloquent Javascript.",
