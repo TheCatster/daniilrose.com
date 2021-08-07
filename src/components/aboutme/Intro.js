@@ -14,18 +14,21 @@ const IntroText = () => {
         systems in the C, Rust, and Python languages, and do various
         calculations related to the physics of our units.
       </p>
+      <br />
       <p>
         I am a member of <em>Mensa</em>, the <em>Free Software Foundation</em>{" "}
         and the <em>Electronic Frontier Foundation</em>. All my projects are GNU
         GPL v3.0 licensed, and I believe in the freedom of knowledge, as well as
         self-hosting and decentralisation.
       </p>
+      <br />
       <p>
         I pride myself in being as efficient and knowledgeable as is reasonable.
         This applies to all my work, whether it is programming, CAD design, or
         everyday life. I have strong communication skills, and utilise these to
         further my understanding of all topics.
       </p>
+      <br />
       <p>
         I have a blog called
         <a href="https://www.regressions.xyz">

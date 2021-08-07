@@ -225,15 +225,25 @@ class Projects extends Component {
       })
       .map((entry, index) => {
         return (
-          <div
-            key={entry.name}
+          <a
+            href={
+              "https://git.sr.ht/" +
+              entry.owner.canonical_name +
+              "/" +
+              entry.name +
+              "/"
+            }
             className="box-border border-2 w-full md:max-w-xs lg:max-w-sm xl:max-w-lg p-4"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <div className="flex flex-col flex-wrap gap-2">
-              <p>{entry.name}</p>
-              <p>{entry.description}</p>
+            <div key={entry.name}>
+              <div className="flex flex-col flex-wrap gap-2">
+                <p>{entry.name}</p>
+                <p>{entry.description}</p>
+              </div>
             </div>
-          </div>
+          </a>
         );
       });
 

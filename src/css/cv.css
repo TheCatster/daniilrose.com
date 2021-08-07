@@ -11,20 +11,22 @@
 */
 
 .cv-title {
-  color: lightblue;
+  color: #00a7c7;
   font-weight: bold;
 }
 
 .cv-subtitle {
-  color: goldenrod;
+  color: #e76f3d;
 }
 
 .cv-section-title {
   text-align: left;
+  color: #00a7c7;
 }
 
 .cv-section-subtitle {
   text-align: left;
+  color: #e76f3d;
 }
 
 @media (max-width: 50em) {
@@ -55,16 +57,8 @@
 }
 
 .cv-link {
-  color: goldenrod;
+  color: #e76f3d;
   text-decoration: none;
-}
-
-h3 {
-  color: deepskyblue;
-}
-
-h4 {
-  color: #ffa86a;
 }
 
 /*
@@ -72,7 +66,7 @@ h4 {
 */
 
 .cryptedmail {
-  color: goldenrod;
+  color: #e76f3d;
   text-decoration: none;
 }
 

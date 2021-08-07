@@ -14,7 +14,7 @@ const App = () => {
     <div>
       <Helmet>
         {" "}
-        <body className="h-screen bg-gray-800 text-white"></body>
+        <body className="h-screen dark:bg-gray-800 dark:text-white"></body>
       </Helmet>
       <div className="md:container md:mx-auto">
         <HashRouter>

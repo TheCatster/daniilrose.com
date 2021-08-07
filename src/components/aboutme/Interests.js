@@ -2,8 +2,10 @@ import React from "react";
 
 const ProgrammingLanguages = (props) => {
   return (
-    <div className="grid-item">
-      <h4>Programming Languages</h4>
+    <div>
+      <h4 className="text-lg font-bold interests-title">
+        Programming Languages
+      </h4>
       <ul className="list-disc list-outside text-left">
         <li>Rust</li>
         <li>C</li>
@@ -16,8 +18,8 @@ const ProgrammingLanguages = (props) => {
 
 const Languages = (props) => {
   return (
-    <div className="grid-item">
-      <h4>Languages</h4>
+    <div>
+      <h4 className="text-lg font-bold interests-title">Languages</h4>
       <ul className="list-disc list-outside text-left">
         <li>Russian: Native</li>
         <li>English: Native</li>
@@ -30,8 +32,8 @@ const Languages = (props) => {
 
 const Instruments = (props) => {
   return (
-    <div className="grid-item">
-      <h4>Instruments</h4>
+    <div>
+      <h4 className="text-lg font-bold interests-title">Instruments</h4>
       <ul className="list-disc list-outside text-left">
         <li>Vibraphone</li>
         <li>Marimba</li>
