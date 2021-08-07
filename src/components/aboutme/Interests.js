@@ -44,7 +44,7 @@ const Instruments = (props) => {
 
 const InterestsContent = () => {
   return (
-    <div className="grid grid-cols-3 gap-4 justify-items-center">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-center">
       <ProgrammingLanguages />
       <Languages />
       <Instruments />

@@ -3,8 +3,8 @@ import React from "react";
 const CVTitle = () => {
   return (
     <div>
-      <h1 className="cv-title">Daniel Rose</h1>
-      <h2 className="cv-subtitle">
+      <h1 className="cv-title text-5xl">Daniel Rose</h1>
+      <h2 className="text-2xl">
         <a
           id="mail"
           className="cryptedmail"

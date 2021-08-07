@@ -40,12 +40,16 @@ const IntroText = () => {
 };
 
 const IntroImage = () => {
-  return <img src={me} alt="Danya Rose" className="danya" />;
+  return (
+    <div className="content-center p-4 md:p-2">
+      <img className="rounded-lg object-scale" src={me} alt="Daniel Rose" />
+    </div>
+  );
 };
 
 const Intro = () => {
   return (
-    <div className="grid grid-cols-2">
+    <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center">
       <IntroImage />
       <IntroText />
     </div>

@@ -15,14 +15,14 @@ const CV = () => {
         {" "}
         <title>CV - Daniel Rose</title>
       </Helmet>
-      <hgroup>
-        <CVTitle />
+      <CVTitle />
+      <div className="p-4">
         <CVTechnicalSkills />
         <CVSoftSkills />
         <CVEducation />
         <CVWorkExperience />
         <CVService />
-      </hgroup>
+      </div>
     </div>
   );
 };
