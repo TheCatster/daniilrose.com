@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 import CVTitle from "./CVTitle";
 import CVTechnicalSkills from "./CVTechnicalSkills";
@@ -10,12 +11,18 @@ import CVService from "./CVService";
 const CV = () => {
   return (
     <div className="container cv-container">
-      <CVTitle />
-      <CVTechnicalSkills />
-      <CVSoftSkills />
-      <CVEducation />
-      <CVWorkExperience />
-      <CVService />
+      <Helmet>
+        {" "}
+        <title>CV - Daniel Rose</title>
+      </Helmet>
+      <hgroup>
+        <CVTitle />
+        <CVTechnicalSkills />
+        <CVSoftSkills />
+        <CVEducation />
+        <CVWorkExperience />
+        <CVService />
+      </hgroup>
     </div>
   );
 };

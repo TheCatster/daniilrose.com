@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 const ProgrammingLanguages = (props) => {
-  const isDesktop = props.isDesktop;
   return (
     <div className="grid-item">
-      {isDesktop ? <div></div> : <h4>Programming Languages</h4>}
-      <ul>
+      <h4>Programming Languages</h4>
+      <ul className="list-disc list-outside text-left">
         <li>Rust</li>
         <li>C</li>
         <li>Python</li>
@@ -16,11 +15,10 @@ const ProgrammingLanguages = (props) => {
 };
 
 const Languages = (props) => {
-  const isDesktop = props.isDesktop;
   return (
     <div className="grid-item">
-      {isDesktop ? <div></div> : <h4>Programming Languages</h4>}
-      <ul>
+      <h4>Languages</h4>
+      <ul className="list-disc list-outside text-left">
         <li>Russian: Native</li>
         <li>English: Native</li>
         <li>German: A2</li>
@@ -31,11 +29,10 @@ const Languages = (props) => {
 };
 
 const Instruments = (props) => {
-  const isDesktop = props.isDesktop;
   return (
     <div className="grid-item">
-      {isDesktop ? <div></div> : <h4>Programming Languages</h4>}
-      <ul>
+      <h4>Instruments</h4>
+      <ul className="list-disc list-outside text-left">
         <li>Vibraphone</li>
         <li>Marimba</li>
         <li>Piano</li>
@@ -45,49 +42,20 @@ const Instruments = (props) => {
   );
 };
 
-const InterestsHeaders = (props) => {
+const InterestsContent = () => {
   return (
-    <div className="grid">
-      <h4>Programming Languages</h4>
-      <h4>Languages</h4>
-      <h4>Instruments</h4>
-    </div>
-  );
-};
-
-const InterestsContent = (props) => {
-  return (
-    <div className="grid">
-      <ProgrammingLanguages isDesktop={props.isDesktop} />
-      <Languages isDesktop={props.isDesktop} />
-      <Instruments isDesktop={props.isDesktop} />
+    <div className="grid grid-cols-3 gap-4 justify-items-center">
+      <ProgrammingLanguages />
+      <Languages />
+      <Instruments />
     </div>
   );
 };
 
 const Interests = () => {
-  const [isDesktop, setDesktop] = useState(window.innerWidth >= 1024);
-
-  const updateMedia = () => {
-    setDesktop(window.innerWidth >= 1024);
-  };
-
-  useEffect(() => {
-    window.addEventListener("resize", updateMedia);
-    return () => window.removeEventListener("resize", updateMedia);
-  });
-
   return (
-    <div className="container">
-      {isDesktop ? (
-        <div>
-          {" "}
-          <InterestsHeaders />
-          <InterestsContent isDesktop={isDesktop} />
-        </div>
-      ) : (
-        <InterestsContent isDesktop={isDesktop} />
-      )}
+    <div className="p-8">
+      <InterestsContent />
     </div>
   );
 };

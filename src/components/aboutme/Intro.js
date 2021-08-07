@@ -3,7 +3,7 @@ import me from "../../img/danya.webp";
 
 const IntroText = () => {
   return (
-    <div className="container">
+    <div className="box-content p-4">
       <p>
         My name is Daniel Rose. I am an embedded systems engineering student,
         with a passion for Lisp, Rust, and Data Science. Experimenting with
@@ -45,7 +45,7 @@ const IntroImage = () => {
 
 const Intro = () => {
   return (
-    <div className="grid">
+    <div className="grid grid-cols-2">
       <IntroImage />
       <IntroText />
     </div>
