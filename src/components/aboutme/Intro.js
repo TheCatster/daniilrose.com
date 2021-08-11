@@ -1,5 +1,8 @@
 import React from "react";
 import me from "../../img/danya.webp";
+import fsf from "../../img/fsf.webp";
+import eff from "../../img/eff.webp";
+import mensa from "../../img/mensa.webp";
 
 const IntroText = () => {
   return (
@@ -44,8 +47,54 @@ const IntroText = () => {
 
 const IntroImage = () => {
   return (
-    <div className="content-center p-4 md:p-2">
+    <div className="content-center p-1">
       <img className="rounded-lg object-scale" src={me} alt="Daniel Rose" />
+    </div>
+  );
+};
+
+const FSFBadge = () => {
+  return (
+    <div className="content-center p-1">
+      <img
+        className="rounded-lg object-scale"
+        src={fsf}
+        alt="FSF Member Badge"
+      />
+    </div>
+  );
+};
+
+const MensaBadge = () => {
+  return (
+    <div className="content-center p-1">
+      <img
+        className="rounded-lg object-scale"
+        src={mensa}
+        alt="Mensa Member Badge"
+      />
+    </div>
+  );
+};
+
+const EFFBadge = () => {
+  return (
+    <div className="content-center p-1">
+      <img
+        className="rounded-lg object-scale"
+        src={eff}
+        alt="EFF Member Badge"
+      />
+    </div>
+  );
+};
+
+const IntroBadges = () => {
+  return (
+    <div className="flex place-items-center">
+      <FSFBadge />
+      <EFFBadge />
+      <MensaBadge />
     </div>
   );
 };
@@ -53,7 +102,10 @@ const IntroImage = () => {
 const Intro = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center">
-      <IntroImage />
+      <div className="flex flex-col place-items-center">
+        <IntroImage />
+        <IntroBadges />
+      </div>
       <IntroText />
     </div>
   );

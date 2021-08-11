@@ -7,6 +7,20 @@ class Projects extends Component {
   state = { projects: [] };
 
   componentDidMount() {
+    let query =
+      "query { me { canonicalName repositories() { cursor results { id, name, description, updated } } } }";
+
+    const url = "https://git.sr.ht/query";
+    let headers = new Headers({
+      Authorization:
+        "Bearer AGx58mIAAAAAQHBhZ2VzLnNyLmh0L1BST0ZJTEU6UlcgcGFnZXMuc3IuaHQvU0lURVM6UlcgcGFnZXMuc3IuaHQvUEFHRVM6UlcACnRoZWNhdHN0ZXKNKv+goOZfpOwO2953WaFAUtGrpDUqYGzmuDWL/SXOgQ",
+      "Content-Type": "application/json",
+    });
+
+    fetch(url, { method: "POST", body: query, headers: headers })
+      .then((result) => result.json())
+      .then((result) => console.log(result));
+
     const data = [
       {
         created: "2021-08-05T19:48:52+00:00",
