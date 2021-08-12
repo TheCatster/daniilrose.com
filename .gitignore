@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 # Sourcehut OAuth Token
 .srht_token
-/backend/tokens.json
+tokens.json
 
 # dependencies
 /frontend/node_modules
