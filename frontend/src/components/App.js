@@ -2,7 +2,6 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Route, HashRouter } from "react-router-dom";
 
-import nightwind from "nightwind/helper";
 import AboutMe from "./aboutme/AboutMe";
 import Projects from "./projects/Projects";
 import Navbar from "./Navbar";
@@ -13,8 +12,7 @@ const App = () => {
     <div>
       <Helmet>
         {" "}
-        <script>{nightwind.init()}</script>
-        <body className="h-screen bg-white dark:bg-gray-800 text-black"></body>
+        <body className="h-screen bg-white dark:bg-gray-800 text-black dark:text-white"></body>
       </Helmet>
       <div className="md:container md:mx-auto">
         <HashRouter>

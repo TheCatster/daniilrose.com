@@ -1,6 +1,6 @@
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
-  darkMode: "class",
+  darkMode: "media",
   theme: {
     container: {
       center: true,
@@ -17,5 +17,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require("tailwind-hamburgers"), require("nightwind")],
+  plugins: [require("tailwind-hamburgers")],
 };

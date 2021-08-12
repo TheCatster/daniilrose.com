@@ -12,7 +12,7 @@ const ForgeMenu = () => {
     <div className="flex flex-wrap place-items-center justify-center gap-4">
       <NavLink
         to="/projects/srht"
-        className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+        className="hover:bg-gray-200 dark:hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
       >
         <div className="content-center">
           <img
@@ -24,7 +24,7 @@ const ForgeMenu = () => {
       </NavLink>
       <NavLink
         to="/projects/gh/commit"
-        className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+        className="hover:bg-gray-200 dark:hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
       >
         <div className="content-center">
           <img
@@ -41,16 +41,16 @@ const ForgeMenu = () => {
 const GHContributionMenu = () => {
   return (
     <div className="flex flex-wrap place-items-center justify-center gap-4 text-base font-medium interests-title">
-      <p className="text-black">Sort by:</p>
+      <p className="text-black dark:text-white">Sort by:</p>
       <NavLink
         to="/projects/gh/commit"
-        className="hover:bg-gray-700 px-3 py-2 rounded-md"
+        className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md"
       >
         <div className="content-center">Commit/PR</div>
       </NavLink>
       <NavLink
         to="/projects/gh/issue"
-        className="hover:bg-gray-700 px-3 py-2 rounded-md"
+        className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md"
       >
         <div className="content-center">Issue</div>
       </NavLink>
@@ -101,7 +101,7 @@ class Projects extends Component {
                   entry.name +
                   "/"
                 }
-                className="box-border border-2 w-full md:max-w-xs lg:max-w-sm xl:max-w-lg p-4"
+                className="box-border border-2 w-full md:max-w-xs lg:max-w-sm xl:max-w-lg p-4 hover:bg-gray-200 dark:hover:bg-gray-700"
                 target="_blank"
                 rel="noopener noreferrer"
                 key={index}
@@ -117,7 +117,7 @@ class Projects extends Component {
             return (
               <a
                 href={"https://github.com/" + entry.nameWithOwner + "/"}
-                className="box-border border-2 w-full md:max-w-xs lg:max-w-sm xl:max-w-lg p-4"
+                className="box-border border-2 w-full md:max-w-xs lg:max-w-sm xl:max-w-lg p-4 hover:bg-gray-200 dark:hover:bg-gray-700"
                 target="_blank"
                 rel="noopener noreferrer"
                 key={index}

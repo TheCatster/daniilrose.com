@@ -10130,15 +10130,6 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"nightwind@npm:^1.1.12":
-  version: 1.1.12
-  resolution: "nightwind@npm:1.1.12"
-  peerDependencies:
-    tailwindcss: ^2.0.0
-  checksum: 231f08f0cbd55add2f8c9cb8756852b555775cac20b634abfa7a8c2a1d55d4305b4fec2b3309f2d708c831debb07a416c9ff0dc8b8e9f4762d1a2764be958c3a
-  languageName: node
-  linkType: hard
-
 "no-case@npm:^3.0.4":
   version: 3.0.4
   resolution: "no-case@npm:3.0.4"
@@ -10961,7 +10952,6 @@ fsevents@^1.2.7:
     "@testing-library/user-event": ^12.8.3
     autoprefixer: ^9.8.6
     graphql: ^15.5.1
-    nightwind: ^1.1.12
     postcss: ^7.0.36
     react: ^17.0.2
     react-dom: ^17.0.2
