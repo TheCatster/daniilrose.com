@@ -91,52 +91,44 @@ class Projects extends Component {
   render() {
     const projectEntries =
       this.props.forge === "srht"
-        ? this.state.projects
-            .filter((entry, index) => {
-              return entry.visibility === "public";
-            })
-            .map((entry, index) => {
-              return (
-                <a
-                  href={
-                    "https://git.sr.ht/" +
-                    entry.owner.canonical_name +
-                    "/" +
-                    entry.name +
-                    "/"
-                  }
-                  className="box-border border-2 w-full md:max-w-xs lg:max-w-sm xl:max-w-lg p-4"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  key={index}
-                >
-                  <div className="flex flex-col flex-wrap gap-2">
-                    <p>{entry.name}</p>
-                    <p>{entry.description}</p>
-                  </div>
-                </a>
-              );
-            })
-        : this.state.projects
-            .filter((entry, index) => {
-              return entry.isPrivate === false;
-            })
-            .map((entry, index) => {
-              return (
-                <a
-                  href={"https://github.com/" + entry.nameWithOwner + "/"}
-                  className="box-border border-2 w-full md:max-w-xs lg:max-w-sm xl:max-w-lg p-4"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  key={index}
-                >
-                  <div className="flex flex-col flex-wrap gap-2">
-                    <p>{entry.nameWithOwner}</p>
-                    <p>{entry.description}</p>
-                  </div>
-                </a>
-              );
-            });
+        ? this.state.projects.map((entry, index) => {
+            return (
+              <a
+                href={
+                  "https://git.sr.ht/" +
+                  entry.owner.canonical_name +
+                  "/" +
+                  entry.name +
+                  "/"
+                }
+                className="box-border border-2 w-full md:max-w-xs lg:max-w-sm xl:max-w-lg p-4"
+                target="_blank"
+                rel="noopener noreferrer"
+                key={index}
+              >
+                <div className="flex flex-col flex-wrap gap-2">
+                  <p>{entry.name}</p>
+                  <p>{entry.description}</p>
+                </div>
+              </a>
+            );
+          })
+        : this.state.projects.map((entry, index) => {
+            return (
+              <a
+                href={"https://github.com/" + entry.nameWithOwner + "/"}
+                className="box-border border-2 w-full md:max-w-xs lg:max-w-sm xl:max-w-lg p-4"
+                target="_blank"
+                rel="noopener noreferrer"
+                key={index}
+              >
+                <div className="flex flex-col flex-wrap gap-2">
+                  <p>{entry.nameWithOwner}</p>
+                  <p>{entry.description}</p>
+                </div>
+              </a>
+            );
+          });
 
     return (
       <div>

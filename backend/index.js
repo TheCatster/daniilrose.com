@@ -22,7 +22,11 @@ app.get("/api/srht", (req, res) => {
       if (error) {
         return console.log(error);
       }
-      res.json({ projects: body.results });
+      res.json({
+        projects: body.results.filter((entry, index) => {
+          return entry.visibility === "public";
+        }),
+      });
     }
   );
 });
@@ -59,7 +63,13 @@ app.get("/api/gh/commit", (req, res) => {
       if (error) {
         return console.log(error);
       }
-      res.json({ projects: body.data.user.repositoriesContributedTo.nodes });
+      res.json({
+        projects: body.data.user.repositoriesContributedTo.nodes.filter(
+          (entry, index) => {
+            return entry.isPrivate === false;
+          }
+        ),
+      });
     }
   );
 });
@@ -96,7 +106,13 @@ app.get("/api/gh/issue", (req, res) => {
       if (error) {
         return console.log(error);
       }
-      res.json({ projects: body.data.user.repositoriesContributedTo.nodes });
+      res.json({
+        projects: body.data.user.repositoriesContributedTo.nodes.filter(
+          (entry, index) => {
+            return entry.isPrivate === false;
+          }
+        ),
+      });
     }
   );
 });
