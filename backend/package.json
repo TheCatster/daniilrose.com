@@ -2,5 +2,13 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "requests": "^0.3.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
 }
