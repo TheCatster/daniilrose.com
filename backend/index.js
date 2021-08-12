@@ -3,7 +3,7 @@ const path = require("path");
 const request = require("request");
 const tokens = require("./tokens.json");
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 31045;
 const app = express();
 
 app.use(express.static(path.resolve(__dirname, "../frontend/build")));
