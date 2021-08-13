@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 
 import { NavLink } from "react-router-dom";
 import ProjectsList from "./ProjectsList";
+import LazyLoad from "react-lazyload";
 
 import srhtLogo from "../../img/sourcehut.svg";
 import ghLogo from "../../img/github.svg";
@@ -14,25 +15,29 @@ const ForgeMenu = () => {
         to="/projects/srht"
         className="hover:bg-gray-200 dark:hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
       >
-        <div className="content-center">
-          <img
-            src={srhtLogo}
-            alt="Sourcehut Logo"
-            className="rounded-lg object-scale logo-color"
-          />
-        </div>
+        <LazyLoad once>
+          <div className="content-center">
+            <img
+              src={srhtLogo}
+              alt="Sourcehut Logo"
+              className="rounded-lg object-scale logo-color"
+            />
+          </div>
+        </LazyLoad>
       </NavLink>
       <NavLink
         to="/projects/gh/commit"
         className="hover:bg-gray-200 dark:hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
       >
-        <div className="content-center">
-          <img
-            src={ghLogo}
-            alt="GitHub Logo"
-            className="rounded-lg object-scale logo-color"
-          />
-        </div>
+        <LazyLoad once>
+          <div className="content-center">
+            <img
+              src={ghLogo}
+              alt="GitHub Logo"
+              className="rounded-lg object-scale logo-color"
+            />
+          </div>
+        </LazyLoad>
       </NavLink>
     </div>
   );

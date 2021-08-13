@@ -1,5 +1,10 @@
 import React from "react";
-import me from "../../img/danya.webp";
+import useProgressiveImg from "../ProgressiveImg";
+import LazyLoad from "react-lazyload";
+
+import me from "../../img/danya.jpg";
+import meMin from "../../img/danya-min.jpg";
+
 import fsf from "../../img/fsf.webp";
 import eff from "../../img/eff.webp";
 import mensa from "../../img/mensa.webp";
@@ -46,46 +51,64 @@ const IntroText = () => {
 };
 
 const IntroImage = () => {
+  const [src, { blur }] = useProgressiveImg(meMin, me);
+
   return (
-    <div className="content-center p-1">
-      <img className="rounded-lg object-scale" src={me} alt="Daniel Rose" />
-    </div>
+    <LazyLoad once>
+      <div className="content-center p-1">
+        <img
+          className="rounded-lg object-scale"
+          src={src}
+          alt="Daniel Rose"
+          style={{
+            filter: blur ? "blur(20px)" : "none",
+            transition: blur ? "none" : "filter 0.3s ease-out",
+          }}
+        />
+      </div>
+    </LazyLoad>
   );
 };
 
 const FSFBadge = () => {
   return (
-    <div className="content-center p-1">
-      <img
-        className="rounded-lg object-scale"
-        src={fsf}
-        alt="FSF Member Badge"
-      />
-    </div>
+    <LazyLoad once>
+      <div className="content-center p-1">
+        <img
+          className="rounded-lg object-scale"
+          src={fsf}
+          alt="FSF Member Badge"
+        />
+      </div>
+    </LazyLoad>
   );
 };
 
 const MensaBadge = () => {
   return (
-    <div className="content-center p-1">
-      <img
-        className="rounded-lg object-scale"
-        src={mensa}
-        alt="Mensa Member Badge"
-      />
-    </div>
+    <LazyLoad once>
+      <div className="content-center p-1">
+        <img
+          className="rounded-lg object-scale"
+          src={mensa}
+          alt="Mensa Member Badge"
+        />
+      </div>
+    </LazyLoad>
   );
 };
 
 const EFFBadge = () => {
   return (
-    <div className="content-center p-1">
-      <img
-        className="rounded-lg object-scale"
-        src={eff}
-        alt="EFF Member Badge"
-      />
-    </div>
+    <LazyLoad once>
+      <div className="content-center p-1">
+        <img
+          className="rounded-lg object-scale"
+          src={eff}
+          alt="EFF Member Badge"
+        />
+      </div>
+    </LazyLoad>
   );
 };
 

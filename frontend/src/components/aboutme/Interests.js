@@ -19,7 +19,9 @@ const ProgrammingLanguages = (props) => {
 const Languages = (props) => {
   return (
     <div>
-      <h4 className="text-md lg:text-lg font-bold interests-title">Languages</h4>
+      <h4 className="text-md lg:text-lg font-bold interests-title">
+        Languages
+      </h4>
       <ul className="list-disc list-outside text-left">
         <li>Russian: Native</li>
         <li>English: Native</li>
@@ -33,7 +35,9 @@ const Languages = (props) => {
 const Instruments = (props) => {
   return (
     <div>
-      <h4 className="text-md lg:text-lg font-bold interests-title">Instruments</h4>
+      <h4 className="text-md lg:text-lg font-bold interests-title">
+        Instruments
+      </h4>
       <ul className="list-disc list-outside text-left">
         <li>Vibraphone</li>
         <li>Marimba</li>
