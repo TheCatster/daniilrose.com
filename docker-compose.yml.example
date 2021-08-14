@@ -2,7 +2,8 @@ version: "3"
 services:
   personal-site:
     build: .
-    volumes:
-      - "./tokens.json:/usr/src/app/backend/tokens.json:ro"
+    environment:
+      - GITHUB_TOKEN=""
+      - SOURCEHUT_TOKEN=""
     ports:
       - "31045:31045"

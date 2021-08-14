@@ -1,7 +1,6 @@
 const express = require("express");
 const path = require("path");
 const request = require("request");
-const tokens = require("./tokens.json");
 
 const PORT = process.env.PORT || 31045;
 const app = express();
@@ -9,7 +8,7 @@ const app = express();
 app.use(express.static(path.resolve(__dirname, "../frontend/build")));
 
 app.get("/api/srht", (req, res) => {
-  const token = tokens.sourcehutToken;
+  const token = process.env.SOURCEHUT_TOKEN;
   const url = "https://git.sr.ht/api/~thecatster/repos";
 
   request(
@@ -32,7 +31,7 @@ app.get("/api/srht", (req, res) => {
 });
 
 app.get("/api/gh/commit", (req, res) => {
-  const token = tokens.githubToken;
+  const token = process.env.GITHUB_TOKEN;
   const url = "https://api.github.com/graphql";
   const body = {
     query: `{
@@ -75,7 +74,7 @@ app.get("/api/gh/commit", (req, res) => {
 });
 
 app.get("/api/gh/issue", (req, res) => {
-  const token = tokens.githubToken;
+  const token = process.env.GITHUB_TOKEN;
   const url = "https://api.github.com/graphql";
   const body = {
     query: `{

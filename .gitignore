@@ -2,6 +2,7 @@
 # Sourcehut OAuth Token
 .srht_token
 tokens.json
+docker-compose.yml
 
 # dependencies
 /frontend/node_modules
