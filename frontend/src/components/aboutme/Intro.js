@@ -2,8 +2,8 @@ import React from "react";
 import useProgressiveImg from "../ProgressiveImg";
 import LazyLoad from "react-lazyload";
 
-import me from "../../img/danya.jpg";
-import meMin from "../../img/danya-min.jpg";
+import me from "../../img/danya.webp";
+import meMin from "../../img/danya-min.webp";
 
 import fsf from "../../img/fsf.webp";
 import eff from "../../img/eff.webp";
