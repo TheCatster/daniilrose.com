@@ -4,13 +4,11 @@ FROM node:16
 WORKDIR /usr/src/app
 
 # Copy source to work dir
-COPY ./backend /usr/src/app/backend
-COPY ./frontend /usr/src/app/frontend
+COPY . /usr/src/app
 
 # Install app dependencies and build react app
-RUN yarn set version berry
-RUN yarn /usr/src/app/frontend install && yarn /usr/src/app/frontend build
-RUN yarn /usr/src/app/backend install
+RUN yarn install
+RUN yarn build
 
-EXPOSE 31045
-CMD [ "yarn", "/usr/src/app/backend", "start" ]
+EXPOSE 3000
+CMD [ "yarn", "start" ]
