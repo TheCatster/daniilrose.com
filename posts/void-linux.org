@@ -1,0 +1,158 @@
+---
+title: "Void Linux: A Great Experience"
+date: "2021-01-14"
+description: "My thoughts on Void Linux and some tips on using it."
+tags: [
+    "linux",
+    "distro-talk",
+    "minimalism"
+]
+---
+** Void Linux: But Why?
+Void is an interesting distribution. It's a binary based distribution,
+just like your Debians and your Arches, and it is a rolling release,
+so closer to Arch or openSUSE again, but is a bit slower with
+updates. You still never have to do a ~dist-upgrade~, and things
+genuinely tend to "just work." I've had more issues with Arch breaking
+during updates than I've had any issues with Void. Of course, every
+distro has to have their gimmick, or else why would people switch?
+
+*** To systemd, or not?
+Of course, here comes the big controversy (that doesn't really matter
+*that* much, sorry folks). Void does *not* use systemd, instead
+relying on runit. Yes, runit is "ancient," yes it's "simpler" than
+systemd. Personally, I'm used to writing runit scripts, and find them
+much easier to quickly think up instead of systemd "service
+units." There are other concerns with systemd, that are definitely not
+*invalid*, but don't really affect the end user much. I'm not one to
+start a pointless argument, and this one really is opinion based, but
+systemd attempts to be too much for me. I'd rather have my init just
+start services, and that's all. This does bring up some slight issues,
+but since runit is *the* init system of Void, it's a MUCH better
+experience than my old favorite, Artix. You don't need to remember
+"hm, does that package need a -runit suffix?" and instead just
+download and use your packages.
+
+*** Minimalism to the extreme (but not as extreme as source-based distros)
+You can find more minimal distros, and you can "technically" be more
+efficient with more extreme methods, but I have a different
+viewpoint. My goal, when using any technology, is for it to be as
+efficient as I need, and work. I'm not a person of habit, and am
+totally fine with just "dropping" something any day to use something
+"better." But in order for that thing to be "better," it has to make
+me more efficient. None of the stupid Arch user or LFS jokes, I just
+mean that it fulfills the goal it has. If I have an email client, it
+should just work, and show my email. That doesn't mean the most
+minimal thing is good (I used neomutt for a year, and just dropped it
+recently for Thunderbird. Sure, Thunderbird is "technically" more
+bloated, but it is also easier to read HTML emails with images,
+y'know, what most emails are), and the most complex also doesn't mean
+that it is superior. I find Void a good balance of this. The initial
+image is very minimal, not even having curl, gcc, and git! But on the
+other hand, everything is very accessible and well planned (for
+example, the Debian style "-devel" split for packages, meaning your
+end package amount will probably be higher than say, Arch, but you'll
+have much better organisation). Packages, even large ones like IceCat
+and Firefox, install in a split second. This is still the ultimate
+argument I have against source based distributions. Sure, maybe if I
+had a better computer and a high end Ryzen I could compile things
+plenty fast and be happy with all my custom USE flags (Hi Gentoo), but
+myself being *not* a person of habit, I may just randomly want to try
+something, and that doesn't mean I want to sit around and wait while
+my computer compiles an update to my browser. Speaking of packages...
+
+** ~xpbs~! Er, wait, ~xbps~!
+~xbps~ is an amazing package manager with weird syntax. First, separate
+binaries is actually interesting. Keeping your install/query/remove
+separate makes for a more efficient way of updating, but the naming
+scheme, really guys? The first thing I recommend doing is going to
+your ~.zshrc~ or your ~.bashrc~ (or whatever hipster shell you use)
+and alias ~xi~ to ~xbps-install~, ~xr~ to ~xbps-remove~, ~xq~ to
+~xbps-query~, and ~update~ to ~xbps-install -Su~. Now that you don't
+have to write a sentence to install a package, you might notice the
+only other two real "downsides." ~xbps~ is case-sensitive (so is ~pacman~
+btw!)... but most packages in Arch are lowercase, unlike
+Void. Especially in the beginning, you might have issues finding the
+package you want. The Void Wiki was retired :(, so there are currently
+three methods to find things:
+- Use the Void Wiki (most things are still relevant)
+- Use the [[https://voidlinux.org/packages/][official search page]] (not a fan of unnecessarily opening my
+  browser, but this is a good system, to be fair)
+- Search the void-packages repo.
+Now that third one especially brings up an interesting decision on the
+Void repos (that I personally like): "restricted" or non-free licensed
+programs are not in the main, or non-free repos. They are instead kept
+in a large GitHub repository, and have a special system to make them
+normal packages. This process is quite easy to learn, and it's nice to
+encourage people to use OSS. The repository isn't just about not open
+software though, it also includes larger programs, and it's worth
+checking if your program is in there if you can't find it in the main
+repos. This is a safer approach to something like the AUR, since
+packages are checked out and kept in a main source instead of just
+being handled by people at random and loosely monitored. I've found
+more stable and up to date software in the Void repos.
+
+So how do you go about installing software that you *have* to use, but
+isn't OSS and might be considered "large," like say Zoom for your
+online classes?
+
+#+BEGIN_SRC bash
+$ git clone git://github.com/void-linux/void-packages.git
+$ cd void-packages
+$ ./xbps-src binary-bootstrap
+# If you would like restricted software (most likely yes if you're doing this!)
+$ echo XBPS_ALLOW_RESTRICTED=yes >> etc/conf
+# In order to use the "xisr" alias I talk about in the future
+$ xi xtools
+#+END_SRC
+
+This'll get you ready to start using void-packages. The command to
+then install a package is ~./xbps-src pkg <pkgname>~. I find it a bit
+more convenient though to make an alias for this and use the shortcut
+(I keep the void-packages repo in ~$HOME/.local/src~, so if you don't
+want it there adjust accordingly). Set ~xisr~ to:
+
+#+BEGIN_SRC bash
+ cd $HOME/.local/src/void-packages && sudo xi
+#+END_SRC
+
+Then all I have to type, using that Zoom example, is ~xisr zoom~. You
+can then install it as a normal Void package (~xi Zoom~). I think this
+separation is a good concept, and helps people to use OSS (although
+yes, that's not the only type of thing in restricted, large packages
+are too), while also still having a convenient way to use restricted
+software. Using aliases makes xbps one of the best package managers (I
+haven't even touched on the advanced capabilities!) and more tolerable
+to use.
+
+** The Downsides
+Getting started in Void is quite the task. I consider myself fairly
+literate with Linux, have used Gentoo as a daily driver, and even make
+jokes about "speed running a usable Arch install" in about 15
+minutes. Void's package names were just annoying at first, and I was
+missing a bunch of random ~-devel~ packages. I'm positive that now
+that I have all my dotfiles setup, understand the package manager (and
+have my aliases!), and have done it two or three times I could do it
+just as fast as Arch. The initial TUI install is definitely easier
+than Arch, and if you want to you can still do the install the
+"chroot" way. I've had numerous issues with Steam/Proton that I've yet
+to fix (but I'll update the article when I find them with solutions),
+and those package names really are a pain. But otherwise, I have had
+no driver issues on laptops (Dell and Thinkpad) or my workstation (HP
+Z420). I use Radeon graphics cards, so I'm not quite sure how the
+Nvidia install would go, but I doubt any more complicated. The largest
+issue really was the package names, and even that is just an
+annoyance.
+
+** So?
+So, I think you should give it a try. If you're feeling adventurous,
+try out the muscl build, otherwise use glibc. Runit is a lightweight
+easy to use init system, xbps is quite powerful and fast, and Void
+Linux is an interesting balance of minimalism and ease of use. There
+are options available with a DE (if that's your thing, or if the
+computer is for a family member), and otherwise you can do whatever
+you want with it!
+
+If you'd like to see some more articles about Void Linux, or have
+questions, feel free to shoot me an email at
+danielrose@member.fsf.org or Twitter [[https://twitter.com/thecatster14][@TheCatster14]].
