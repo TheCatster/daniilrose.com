@@ -2,6 +2,7 @@ version: "3"
 services:
   personal-site:
     build: .
+    restart: unless-stopped
     environment:
       - GITHUB_TOKEN=""
       - SOURCEHUT_TOKEN=""
