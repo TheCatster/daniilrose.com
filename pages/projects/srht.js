@@ -53,7 +53,7 @@ export default function Sourcehut(data) {
             return (
               <a
                 href={
-                  "https:git.sr.ht/" +
+                  "https://git.sr.ht/" +
                   entry.owner.canonical_name +
                   "/" +
                   entry.name +
