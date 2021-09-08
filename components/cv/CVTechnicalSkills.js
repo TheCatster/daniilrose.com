@@ -7,8 +7,8 @@ const CVTechnicalSkills = () => {
       <div className="container p-2">
         <h3 className="cv-section-item text-xl">1.1 Workflow</h3>
         <p className="cv-text">
-          Using Emacs, vim/nvim, tmux/dwm, and IDEs when appropriate to work
-          efficiently. Use of network tools such as ssh, docker, docker-compose,
+          Using GNU/Linux, Emacs, Vim, and IDEs when appropriate to work
+          efficiently. Use of tools such as ssh, docker, docker-compose, Proxmox
           and kubernetes to manage home lab and work environments. Jupyter Lab
           for use with Python to complete Linear Algebra and Machine Learning
           tasks.
@@ -17,9 +17,9 @@ const CVTechnicalSkills = () => {
       <div className="container p-2">
         <h3 className="cv-section-item text-xl">1.2 Languages</h3>
         <h4 className="cv-section-subtitle text-lg">1.2.1 Programming</h4>
-        <p className="cv-text">Rust, C, Python, Clojure, Emacs Lisp, Kotlin</p>
+        <p className="cv-text">Rust, C, Python, Kotlin, Swift, Emacs Lisp</p>
         <h4 className="cv-section-subtitle text-lg">1.2.2 Markup</h4>
-        <p className="cv-text">Org, LaTeX, HTML, CSS</p>
+        <p className="cv-text">Org, LaTeX</p>
         <h4 className="cv-section-subtitle text-lg">1.2.3 Human</h4>
         <p className="cv-text">
           English: Native, Russian: Native, German: A2, Chinese: A1
