@@ -9,14 +9,14 @@ const IntroText = () => {
   return (
     <div className="box-content p-4 text-sm lg:text-md">
       <p>
-        My name is Daniel Rose. I am an embedded systems engineering student,
-        with a passion for Lisp, Rust, and Data Science. Experimenting with
-        robotic and mechatronic systems is also an interest of mine. I work as
-        an apprentice satellite engineer, which includes mechanical and
-        electrical components. I design PCBs and mechanical parts in CAD
-        programs such as KiCad, Eagle, SolidWorks, and Fusion 360; I program my
-        systems in the C, Rust, and Python languages, and do various
-        calculations related to the physics of our units.
+        My name is Daniel Rose, although I also go by Daniil. I am an embedded
+        systems engineering student, with a passion for Lisp, Rust, and Data
+        Science. Experimenting with robotic and mechatronic systems is also an
+        interest of mine. I work as an apprentice satellite engineer, which
+        includes mechanical and electrical components. I design PCBs and
+        mechanical parts in CAD programs such as KiCad, Eagle, SolidWorks, and
+        Fusion 360; I program my systems in the C, Rust, and Python languages,
+        and do various calculations related to the physics of our units.
       </p>
       <p>
         I am a member of <em>Mensa</em>, the <em>Free Software Foundation</em>{" "}
