@@ -8,6 +8,7 @@ COPY . /usr/src/app
 
 # Install app dependencies and build react app
 RUN yarn install
+RUN npx next telemetry disable
 RUN yarn build
 
 EXPOSE 3000
