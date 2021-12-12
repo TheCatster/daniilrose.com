@@ -10,14 +10,14 @@ const CVTitle = () => {
           <a
             id="mail"
             className="cryptedmail"
-            data-name="danielrose"
+            data-name="daniil.rose"
             data-domain="member.fsf"
             data-tld="org"
           ></a>
         }{" "}
         -{" "}
-        <a href="https://www.danielr.xyz/" className="cv-link">
-          www.danielr.xyz
+        <a href="https://www.daniilrose.com/" className="cv-link">
+          www.daniilrose.com
         </a>
       </h2>
       <hr className="cv-linebreak" />
