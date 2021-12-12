@@ -35,7 +35,7 @@ export default function Sourcehut(data) {
   return (
     <Layout>
       <Head>
-        <title>Sourcehut Projects - Daniel Rose</title>
+        <title>Sourcehut Projects - Daniil Rose</title>
       </Head>
       <div>
         <h1 className="text-4xl text-center pb-4">Projects</h1>

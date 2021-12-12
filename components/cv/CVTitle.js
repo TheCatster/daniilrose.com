@@ -3,7 +3,7 @@ import React from "react";
 const CVTitle = () => {
   return (
     <div>
-      <h1 className="cv-title text-5xl">Daniel Rose</h1>
+      <h1 className="cv-title text-5xl">Daniil Rose</h1>
       <h2 className="text-2xl">
         {
           // eslint-disable-next-line

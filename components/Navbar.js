@@ -15,7 +15,7 @@ export default function Navbar({ children }) {
               <Link href="/">
                 <a>
                   <div className="flex-shrink-0 font-bold text-xl">
-                    Daniel Rose
+                    Daniil Rose
                   </div>
                 </a>
               </Link>

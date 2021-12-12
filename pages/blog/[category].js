@@ -31,7 +31,7 @@ export default function Blog({ allPostsData }) {
   return (
     <Layout>
       <Head>
-        <title>Blog: {category} - Daniel Rose</title>
+        <title>Blog: {category} - Daniil Rose</title>
       </Head>
       <div className="flex flex-wrap md:flex-nowrap place-items-start p-4 justify-between">
         <div className="flex flex-wrap flex-col place-items-center">

@@ -54,7 +54,7 @@ export default function GitHub(data) {
   return (
     <Layout>
       <Head>
-        <title>GitHub Contributions - Daniel Rose</title>
+        <title>GitHub Contributions - Daniil Rose</title>
       </Head>
       <div>
         <h1 className="text-4xl text-center pb-4">Projects</h1>

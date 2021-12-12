@@ -12,7 +12,7 @@ export default function CV() {
   return (
     <Layout>
       <Head>
-        <title>CV - Daniel Rose</title>
+        <title>CV - Daniil Rose</title>
       </Head>
       <div className="container cv-container">
         <CVTitle />

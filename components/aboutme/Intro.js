@@ -9,7 +9,7 @@ const IntroText = () => {
   return (
     <div className="box-content p-4 text-sm lg:text-md">
       <p>
-        My name is Daniel Rose, although I also go by Daniil. I am an embedded
+        My name is Daniil Rose, although I also go by Daniel. I am an embedded
         systems engineering student, with a passion for Lisp, Rust, and Data
         Science. Experimenting with robotic and mechatronic systems is also an
         interest of mine. I work as an apprentice satellite engineer, which
@@ -49,7 +49,7 @@ const IntroImage = () => {
       <Image
         className="rounded-lg object-scale"
         src={me}
-        alt="Daniel Rose"
+        alt="Daniil Rose"
         placeholder="blur"
         priority
       />

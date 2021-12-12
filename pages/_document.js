@@ -20,7 +20,7 @@ class MyDocument extends Document {
           <script>
             /* @source: https://git.sr.ht/~thecatster/personal-site-neo
             @licstart The following is the entire license notice for the
-            JavaScript code in this page. Copyright (C) 2021 Daniel Rose The
+            JavaScript code in this page. Copyright (C) 2021 Daniil Rose The
             JavaScript code in this page is free software: you can redistribute
             it and/or modify it under the terms of the GNU General Public
             License (GNU GPL) as published by the Free Software Foundation,

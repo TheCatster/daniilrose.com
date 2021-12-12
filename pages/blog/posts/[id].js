@@ -30,7 +30,7 @@ export default function Post({ postData }) {
   return (
     <Layout>
       <Head>
-        <title>{postData.title + " - Daniel Rose"}</title>
+        <title>{postData.title + " - Daniil Rose"}</title>
       </Head>
       <div className="container place-items-center justify-center p-2 max-w-2xl">
         <article>
