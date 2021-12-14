@@ -22,6 +22,7 @@ const CVTitle = () => {
       </h2>
       <hr className="cv-linebreak" />
       <h2 className="text-2xl">
+        Git Forges:{" "}
         <a href="https://github.com/thecatster/" className="cv-link"
         >GitHub</a>
         {" "}
