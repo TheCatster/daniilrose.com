@@ -21,6 +21,12 @@ const CVTitle = () => {
         </a>
       </h2>
       <hr className="cv-linebreak" />
+      <a href="https://github.com/thecatster/" className="cv-link"
+      >GitHub</a>
+      {" "}
+      -{" "}
+      <a href="https://sr.ht/~thecatster/" className="cv-link"
+      >Sourcehut</a>
     </div>
   );
 };
