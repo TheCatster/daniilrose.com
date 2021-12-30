@@ -4,6 +4,7 @@ import CVTitle from "../components/cv/CVTitle";
 import CVTechnicalSkills from "../components/cv/CVTechnicalSkills";
 import CVSoftSkills from "../components/cv/CVSoftSkills";
 import CVEducation from "../components/cv/CVEducation";
+import CVConferences from "../components/cv/CVConferences";
 import CVWorkExperience from "../components/cv/CVWorkExperience";
 import CVService from "../components/cv/CVService";
 import Layout from "../components/layout";
@@ -20,6 +21,7 @@ export default function CV() {
           <CVTechnicalSkills />
           <CVSoftSkills />
           <CVEducation />
+          <CVConferences />
           <CVWorkExperience />
           <CVService />
         </div>

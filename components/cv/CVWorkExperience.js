@@ -3,9 +3,9 @@ import React from "react";
 const CVEducation = () => {
   return (
     <div>
-      <h2 className="cv-section-title text-2xl">work experience</h2>
+      <h2 className="cv-section-title">work experience</h2>
       <div className="container p-2">
-        <h3 className="cv-section-item text-xl">
+        <h3 className="cv-section-item">
           Freelance Software Engineer - Python, White Hat Cat{" "}
           <em>February 2020 - December 2020</em>
         </h3>
@@ -15,7 +15,7 @@ const CVEducation = () => {
         </p>
       </div>
       <div className="container p-2">
-        <h3 className="cv-section-item text-xl">
+        <h3 className="cv-section-item">
           Software Engineer - PHP, Ruben Engineering,{" "}
           <em>March 2020 - March 2021</em>
         </h3>
@@ -25,7 +25,7 @@ const CVEducation = () => {
         </p>
       </div>
       <div className="container p-2">
-        <h3 className="cv-section-item text-xl">
+        <h3 className="cv-section-item">
           Apprentice Satellite Engineer, Mini-Cubes,{" "}
           <em>October 2020 - Current</em>
         </h3>
@@ -36,7 +36,7 @@ const CVEducation = () => {
         </p>
       </div>
       <div className="container p-2">
-        <h3 className="cv-section-item text-xl">
+        <h3 className="cv-section-item">
           Summer IT Assistant, Garden Spot High School,{" "}
           <em>June 2021 - August 2021</em>
         </h3>

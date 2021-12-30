@@ -3,9 +3,9 @@ import React from "react";
 const CVEducation = () => {
   return (
     <div>
-      <h2 className="cv-section-title text-2xl">education</h2>
+      <h2 className="cv-section-title">education</h2>
       <div className="container p-2">
-        <h3 className="cv-section-item text-xl">
+        <h3 className="cv-section-item">
           Garden Spot High School, <em>August 2018 - Current</em>
         </h3>
         <p className="cv-text">
@@ -19,7 +19,7 @@ const CVEducation = () => {
         </p>
       </div>
       <div className="container p-2">
-        <h3 className="cv-section-item text-xl">
+        <h3 className="cv-section-item">
           MIT HSSP, <em>July 2020 - August 2020</em>
         </h3>
         <p className="cv-text">

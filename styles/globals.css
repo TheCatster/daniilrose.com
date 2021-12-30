@@ -7,13 +7,16 @@
     @apply list-disc list-outside text-left;
   }
   h1 {
-    @apply text-2xl font-bold;
+    @apply text-2xl font-extrabold;
   }
   h2 {
-    @apply text-xl font-bold;
+    @apply text-2xl font-bold;
   }
   h3 {
-    @apply text-lg font-bold;
+    @apply text-xl font-semibold;
+  }
+  h4 {
+    @apply text-lg font-semibold;
   }
 }
 
@@ -42,14 +45,31 @@
   color: #ffa86a;
 }
 
-.cv-section-title {
+.cv-section-item {
   text-align: left;
   color: #ffa86a;
 }
 
+.cv-section-title {
+  text-align: left;
+}
+
 .cv-section-subtitle {
   text-align: left;
+  text-decoration: underline;
+}
+
+.cv-section-subsubtitle {
+  text-align: left;
   color: #ffa86a;
+}
+
+.cv-section-subsubtext {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .text-orange-feels {
@@ -74,11 +94,13 @@
   }
   .cv-section-title {
     text-align: left;
+  }
+  .cv-section-item {
     color: #e76f3d;
+    text-align: left;
   }
   .cv-section-subtitle {
     text-align: left;
-    color: #e76f3d;
   }
   .text-orange-feels {
     color: #e76f3d;
@@ -101,11 +123,6 @@
 /*
   Content
 */
-
-.cv-section-item {
-  text-align: left;
-}
-
 .cv-text {
   text-align: left;
 }

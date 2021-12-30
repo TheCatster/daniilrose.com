@@ -5,7 +5,7 @@ const CVSoftSkills = () => {
     <div>
       <h2 className="cv-section-title text-2xl">soft skills</h2>
       <div className="container p-2">
-        <ul className="cv-list list-disc list-outside text-left">
+        <ul className="cv-list list-disc list-inside text-left">
           <li className="cv-list-item">Strong communication skills.</li>
           <li className="cv-list-item">
             Ability to influence to do their best.
