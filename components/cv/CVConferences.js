@@ -12,8 +12,8 @@ const CVConferences = () => {
           Presented at EmacsConf 2021 about computational philosophies regarding
           the use of Emacs, titled{" "}
           <em>
-            GNU's Not UNIX: Why Emacs Demonstrates The UNIX Philosophy Isn't
-            Always The Only Answer
+            GNU&apos;s Not UNIX: Why Emacs Demonstrates The UNIX Philosophy
+            Isn&apos;t Always The Only Answer
           </em>
         </p>
       </div>
