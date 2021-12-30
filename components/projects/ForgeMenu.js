@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function ForgeMenu() {
   return (
     <div>
-      <div className="flex flex-wrap place-items-center justify-center gap-4">
+      <div className="flex flex-wrap place-items-center justify-center gap-4 pb-2">
         Click on a logo to see projects from that forge.
       </div>
       <div className="flex flex-wrap place-items-center justify-center gap-4">

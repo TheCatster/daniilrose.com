@@ -6,7 +6,7 @@ const CVEducation = () => {
       <h2 className="cv-section-title text-2xl">work experience</h2>
       <div className="container p-2">
         <h3 className="cv-section-item text-xl">
-          4.1.1 Freelance Software Engineer - Python, White Hat Cat{" "}
+          Freelance Software Engineer - Python, White Hat Cat{" "}
           <em>February 2020 - December 2020</em>
         </h3>
         <p className="cv-text">
@@ -16,7 +16,7 @@ const CVEducation = () => {
       </div>
       <div className="container p-2">
         <h3 className="cv-section-item text-xl">
-          4.1.2 Software Engineer - PHP, Ruben Engineering,{" "}
+          Software Engineer - PHP, Ruben Engineering,{" "}
           <em>March 2020 - March 2021</em>
         </h3>
         <p className="cv-text">
@@ -26,7 +26,7 @@ const CVEducation = () => {
       </div>
       <div className="container p-2">
         <h3 className="cv-section-item text-xl">
-          4.1.3 Apprentice Satellite Engineer, Mini-Cubes,{" "}
+          Apprentice Satellite Engineer, Mini-Cubes,{" "}
           <em>October 2020 - Current</em>
         </h3>
         <p className="cv-text">
@@ -37,7 +37,7 @@ const CVEducation = () => {
       </div>
       <div className="container p-2">
         <h3 className="cv-section-item text-xl">
-          4.1.4 Summer IT Assistant, Garden Spot High School,{" "}
+          Summer IT Assistant, Garden Spot High School,{" "}
           <em>June 2021 - August 2021</em>
         </h3>
         <p className="cv-text">

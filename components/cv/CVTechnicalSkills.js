@@ -4,8 +4,8 @@ const CVTechnicalSkills = () => {
   return (
     <div>
       <h2 className="cv-section-title text-2xl">technical skills</h2>
-      <div className="container p-2">
-        <h3 className="cv-section-item text-xl">1.1 Workflow</h3>
+      <div className="container p-1">
+        <h3 className="cv-section-item text-xl">Workflow</h3>
         <p className="cv-text">
           Using GNU/Linux, Emacs, Vim, and IDEs when appropriate to work
           efficiently. Use of tools such as ssh, docker, docker-compose, Proxmox
@@ -14,26 +14,26 @@ const CVTechnicalSkills = () => {
           tasks.
         </p>
       </div>
-      <div className="container p-2">
-        <h3 className="cv-section-item text-xl">1.2 Languages</h3>
-        <h4 className="cv-section-subtitle text-lg">1.2.1 Programming</h4>
+      <div className="container p-1">
+        <h3 className="cv-section-item text-xl">Languages</h3>
+        <h4 className="cv-section-subtitle text-lg">Programming</h4>
         <p className="cv-text">Rust, C, Python, Kotlin, Swift, Emacs Lisp</p>
-        <h4 className="cv-section-subtitle text-lg">1.2.2 Markup</h4>
+        <h4 className="cv-section-subtitle text-lg">Markup</h4>
         <p className="cv-text">Org, LaTeX</p>
-        <h4 className="cv-section-subtitle text-lg">1.2.3 Human</h4>
+        <h4 className="cv-section-subtitle text-lg">Human</h4>
         <p className="cv-text">
           English: Native, Russian: Native, German: A2, Chinese: A1
         </p>
       </div>
-      <div className="container p-2">
-        <h3 className="cv-section-item text-xl">1.3 Media</h3>
-        <h4 className="cv-section-subtitle text-lg">1.3.1 Gimp and Inkscape</h4>
+      <div className="container p-1">
+        <h3 className="cv-section-item text-xl">Media</h3>
+        <h4 className="cv-section-subtitle text-lg">Gimp and Inkscape</h4>
         <p className="cv-text">
           Used to make high quality placeholders, mockups, and logos for
           projects.
         </p>
         <h4 className="cv-section-subtitle text-lg">
-          1.3.2 Logic Pro, Ableton, and Ardour
+          Logic Pro, Ableton, and Ardour
         </h4>
         <p className="cv-text">
           Used to arrange and compose music, as well as edit existing audio or
