@@ -39,7 +39,8 @@ export default function Blog({ allPostsData }) {
           <div className="max-w-md">
             <p className="flex-initial overflow-wrap pb-2 text-sm lg:text-md">
               Welcome to Regressions! Here I discuss various mathematical
-              concepts, computer knowledge, Emacs, and GNU/Linux things.
+              concepts, computer knowledge, Emacs, GNU/Linux things, and
+              whatever else comes to mind.
             </p>
             <p className="flex-initial overflow-wrap text-sm lg:text-md">
               I especially love electronics at the hardware/firmware levels, and
