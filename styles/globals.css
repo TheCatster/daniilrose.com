@@ -18,6 +18,9 @@
   h4 {
     @apply text-lg font-semibold;
   }
+  h5 {
+    @apply font-semibold;
+  }
 }
 
 .cv-container {
@@ -172,7 +175,7 @@ ul {
 }
 
 h4 {
-  text-align: center;
+  text-align: left;
 }
 
 p {

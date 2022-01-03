@@ -75,6 +75,7 @@ export default function Post({ postData }) {
                   </code>
                 );
               },
+
               img({ src, title }) {
                 return (
                   <div className="container text-center content-center place-items-center logo-color">
