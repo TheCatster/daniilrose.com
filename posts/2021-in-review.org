@@ -35,6 +35,9 @@ coworker convinced me that I should apply, and I ended up speaking at EmacsConf
 2021 (a blog post I should eventually write)! I look forward to more conferences
 to speak at and attend in the future, even if they are virtual.
 
+*** Laptop Upgrade
+Enough was enough, and I was done with my old ThinkPad. It had served me well, running every UNIX distribution under the sun over the years, but I needed something that better suited my workflow. I purchased the 2021 MacBook Pro 16" with an M1 Pro, 32GB of RAM, and a 1TB SSD. I hope to have many years worth of new memories with this machine!
+
 *** Work
 I'm happy to continue working at Quub, and have made progress on projects there.
 I look forward to what we do in the future!
@@ -125,7 +128,7 @@ UNIX eventually™️.
 
 *** Books
 My goal is to read 24 books this year. I think I can handle two a month! I also
-decided that I will start using [[https://www.goodreads.com/][Goodreads more (profile linked)]].
+decided that I will start using [[https://www.goodreads.com/thecatster][Goodreads more (profile linked)]].
 
 I've written down some of the books I'd like to read below, and am excited to
 find new ones as the year progresses!
@@ -139,7 +142,7 @@ find new ones as the year progresses!
 - An Introduction to Programming in Emacs Lisp by Chassell
 - Nicomachean Ethics by Aristotle
 
-*** Keep Moving Forward!
+** Keep Moving Forward!
 As the film "Meet the Robinsons" always said, keep moving forward. I hope that
 my family stays healthy in the upcoming year, the world gets a little closer to
 the pre-pandemic state, and I keep working on my goals!

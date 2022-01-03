@@ -172,6 +172,7 @@ li {
 ul {
   display: inline-block;
   padding: 0;
+  padding-bottom: 25px;
 }
 
 h4 {
