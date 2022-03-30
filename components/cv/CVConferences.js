@@ -17,15 +17,6 @@ const CVConferences = () => {
           </em>
         </p>
       </div>
-      <div className="container p-2">
-        <h3 className="cv-section-item">
-          LibrePlanet, <em>Upcoming: March 2022</em>
-        </h3>
-        <p className="cv-text">
-          Presenting at LibrePlanet about free software, and how we can better
-          incorporate it in our everyday lives.
-        </p>
-      </div>
     </div>
   );
 };
