@@ -10,22 +10,22 @@ import CVService from "../components/cv/CVService";
 import Layout from "../components/layout";
 
 export default function CV() {
-  return (
-    <Layout>
-      <Head>
-        <title>CV - Daniil Rose</title>
-      </Head>
-      <div className="container cv-container">
-        <CVTitle />
-        <div className="p-4">
-          <CVTechnicalSkills />
-          <CVSoftSkills />
-          <CVEducation />
-          <CVConferences />
-          <CVWorkExperience />
-          <CVService />
-        </div>
-      </div>
-    </Layout>
-  );
+    return (
+        <Layout>
+            <Head>
+                <title>CV - Daniil Rose</title>
+            </Head>
+            <div className="container cv-container">
+                <CVTitle/>
+                <div className="p-4">
+                    <CVTechnicalSkills/>
+                    <CVSoftSkills/>
+                    <CVEducation/>
+                    <CVConferences/>
+                    <CVWorkExperience/>
+                    <CVService/>
+                </div>
+            </div>
+        </Layout>
+    );
 }

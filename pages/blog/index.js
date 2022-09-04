@@ -3,7 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Date from "../../components/date";
 import Image from "next/image";
-import cover from "../../images/pcb.webp";
+import cover from "../../public/images/pcb.webp";
 import { getSortedPostsData } from "../../lib/posts";
 
 export async function getStaticProps() {
@@ -38,9 +38,7 @@ export default function Blog({ allPostsData }) {
           <h1 className="text-2xl lg:text-4xl font-bold p-4">Regressions</h1>
           <div className="max-w-md">
             <p className="flex-initial overflow-wrap pb-2 text-sm lg:text-md">
-              Welcome to Regressions! Here I discuss various mathematical
-              concepts, computer knowledge, Emacs, GNU/Linux things, and
-              whatever else comes to mind.
+              Welcome to Regressions! Here I discuss various computer knowledge, music, and whatever else comes to mind.
             </p>
             <p className="flex-initial overflow-wrap text-sm lg:text-md">
               I especially love electronics at the hardware/firmware levels, and

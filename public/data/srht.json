@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "name": "~thecatster/di0des",
+      "description": "diodes is an 8080 emulator written in C, based on the writings of emulator101."
+    },
+    {
+      "name": "~thecatster/.files",
+      "description": "A repository for my configs. In the past, this was split into multiple computers and OSes, but now I only have my MacBook Pro 16\" M1 (which I am very content with)."
+    },
+    {
+      "name": "~thecatster/nvim",
+      "description": "A neovim config geared towards editing Rust and C code, as well as LaTeX essays."
+    }
+  ]
+}

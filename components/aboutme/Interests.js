@@ -26,7 +26,7 @@ const Languages = (props) => {
         <li>Russian: Native</li>
         <li>English: Native</li>
         <li>German: A2</li>
-        <li>Chinese: A1</li>
+        <li>Simplified Chinese: A1</li>
       </ul>
     </div>
   );

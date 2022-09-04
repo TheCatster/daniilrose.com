@@ -1,6 +1,6 @@
 import Link from "next/link";
-import srhtLogo from "../../images/sourcehut.webp";
-import ghLogo from "../../images/github.webp";
+import srhtLogo from "../../public/images/sourcehut.webp";
+import ghLogo from "../../public/images/github.webp";
 import Image from "next/image";
 
 export default function ForgeMenu() {

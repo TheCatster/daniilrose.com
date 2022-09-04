@@ -3,7 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Date from "../../components/date";
 import Image from "next/image";
-import cover from "../../images/pcb.webp";
+import cover from "../../public/images/pcb.webp";
 import { useRouter } from "next/router";
 import { getAllPostTags, getSortedPostsData } from "../../lib/posts";
 

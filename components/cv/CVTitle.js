@@ -1,10 +1,10 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import ghLogo from "../../images/github.webp";
-import srhtLogo from "../../images/sourcehut.webp";
-import stackLogo from "../../images/stackoverflow.webp";
-import twitterLogo from "../../images/twitter.webp";
+import ghLogo from "../../public/images/github.webp";
+import srhtLogo from "../../public/images/sourcehut.webp";
+import stackLogo from "../../public/images/stackoverflow.webp";
+import twitterLogo from "../../public/images/twitter.webp";
 
 const SourcehutLink = () => {
   return (
@@ -105,14 +105,15 @@ const CVTitle = () => {
             id="mail"
             className="cryptedmail"
             data-name="daniil.rose"
-            data-domain="member.fsf"
+            data-domain="posteo"
             data-tld="org"
           ></a>
         }{" "}
         -{" "}
         <a href="https://www.daniilrose.com/" className="cv-link">
           www.daniilrose.com
-        </a>
+        </a> -{" "}
+          <a href="/cv.pdf" className="cv-link">PDF</a>
       </h2>
       <hr className="cv-linebreak" />
       <div className="flex flex-wrap place-items-center justify-center gap-4 pt-2">
