@@ -52,7 +52,7 @@ const GithubLink = () => {
 
 const TwitterLink = () => {
   return (
-    <Link href="https://twitter.com/TheCatster14">
+    <Link href="https://twitter.com/daniilrose">
       <a target="_blank" rel="noopener noreferrer">
         <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md">
           <div className="content-center logo-color">
@@ -113,7 +113,7 @@ const CVTitle = () => {
         <a href="https://www.daniilrose.com/" className="cv-link">
           www.daniilrose.com
         </a> -{" "}
-          <a href="/cv.pdf" className="cv-link">PDF</a>
+        <a href="/cv.pdf" className="cv-link">PDF</a>
       </h2>
       <hr className="cv-linebreak" />
       <div className="flex flex-wrap place-items-center justify-center gap-4 pt-2">
