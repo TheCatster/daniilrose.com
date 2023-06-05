@@ -6,8 +6,19 @@ const CVEducation = () => {
             <h2 className="cv-section-title">work experience</h2>
             <div className="container p-2">
                 <h3 className="cv-section-item">
+                    Summer Intern, Peraton Remotec,{" "}
+                    <em>June 2023 - Present</em>
+                </h3>
+                <p className="cv-text">
+                    <ul className="cv-list list-disc list-inside text-left">
+                        <li className="cv-list-item">Pending.</li>
+                    </ul>
+                </p>
+            </div>
+            <div className="container p-2">
+                <h3 className="cv-section-item">
                     DevOps Engineer, quub,{" "}
-                    <em>June 2022 - Current</em>
+                    <em>June 2022 - June 2023</em>
                 </h3>
                 <p className="cv-text">
                     <ul className="cv-list list-disc list-inside text-left">

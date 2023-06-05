@@ -9,19 +9,20 @@ const IntroText = () => {
     return (
         <div className="box-content p-4 text-sm lg:text-md">
             <p>
-                My name is Daniil Rose. I am a computer engineering and German dual-major at Penn State University,
-                with a passion for Lisp, Rust, and hardware hacking. Experimenting with robotic and mechatronic systems
-                is also an
-                interest of mine. I work as a DevOps engineer at a satellite firm, helping automate our processes using
-                Jenkins and
-                designing internal tools. I previously worked as an embedded systems engineer, which
-                included mechanical and electrical components. I design PCBs and
+                My name is Daniil Rose. I am majoring in both Computer Engineering and German at Penn State University.
+                I am passionate about Lisp, Rust, and hardware hacking. Experimenting with robotic and mechatronic systems
+                is also an interest of mine.
+            </p>
+            <p>
+                I work as an intern at Peraton Remotec, helping design systems for robots. I previously
+                worked as an embedded systems engineer, which
+                included mechanical and electrical components at a satellite firm. I design PCBs and
                 mechanical parts in CAD programs such as KiCad, Eagle, SolidWorks, and
                 Fusion 360; I program my systems in the C, Rust, and Python languages,
                 and do various calculations related to the physics of our units.
             </p>
             <p>
-                I am a member of <em>Mensa</em>, the <em>Free Software Foundation</em>,{" "}
+                I am a member of the <em>Free Software Foundation</em>,{" "}
                 the <em>IEEE</em> and the <em>Electronic Frontier Foundation</em>. Most of my projects are GNU
                 GPL v3.0 licensed, and I believe in the freedom of knowledge, as well as
                 self-hosting and decentralisation.

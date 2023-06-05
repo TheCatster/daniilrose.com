@@ -8,8 +8,7 @@ const CVService = () => {
         <h3 className="cv-section-item">Boy Scouts</h3>
         <p className="cv-text">
             <ul className="cv-list list-disc list-inside text-left">
-                <li className="cv-list-item">Boy Scout for several years.</li>
-                <li className="cv-list-item">Eagle Board in progress.</li>
+                <li className="cv-list-item">Eagle Scout.</li>
                 <li className="cv-list-item">Helped the community with clean-ups, Scouting for Food, and more.</li>
             </ul>
         </p>
