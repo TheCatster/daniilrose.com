@@ -9,7 +9,7 @@ COPY . /usr/src/app
 # Install app dependencies and build react app
 RUN npm install
 RUN npx next telemetry disable
-RUN npm build
+RUN npm run build
 
 EXPOSE 3000
 CMD [ "npm", "start" ]
