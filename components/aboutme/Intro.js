@@ -15,7 +15,7 @@ const IntroText = () => {
             </p>
             <p>
                 I worked over the summer as an intern at Peraton Remotec, helping design systems for robots using ROS.
-                I created an encrypted quick-patch system for updating Remotec's robots easily. I previously
+                I created an encrypted quick-patch system for updating Remotec robots easily. I previously
                 worked as an embedded systems engineer at Quub, which
                 included mechanical and electrical components at a satellite firm. I designed PCBs and
                 mechanical parts in CAD programs such as KiCad, Eagle, SolidWorks, and
