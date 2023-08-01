@@ -35,13 +35,6 @@ export default function Navbar({ children }) {
                       </div>
                     </a>
                   </Link>
-                  <Link href="/blog">
-                    <a>
-                      <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
-                        Blog
-                      </div>
-                    </a>
-                  </Link>
                   <Link href="/cv">
                     <a>
                       <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
@@ -122,13 +115,6 @@ export default function Navbar({ children }) {
                   <a>
                     <div className="hover:bg-gray-200 dark:hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
                       Projects
-                    </div>
-                  </a>
-                </Link>
-                <Link href="/blog">
-                  <a>
-                    <div className="hover:bg-gray-200 dark:hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
-                      Blog
                     </div>
                   </a>
                 </Link>

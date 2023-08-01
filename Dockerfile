@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:current
 
 # Create app directory
 WORKDIR /usr/src/app
@@ -7,9 +7,9 @@ WORKDIR /usr/src/app
 COPY . /usr/src/app
 
 # Install app dependencies and build react app
-RUN yarn install
+RUN npm install
 RUN npx next telemetry disable
-RUN yarn build
+RUN npm build
 
 EXPOSE 3000
-CMD [ "yarn", "start" ]
+CMD [ "npm", "start" ]
