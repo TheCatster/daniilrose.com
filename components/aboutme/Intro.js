@@ -32,6 +32,7 @@ const IntroText = () => {
                 This applies to all my work, whether it is programming, CAD design, or
                 everyday life. I have strong communication skills, and utilise these to
                 further my understanding of all topics.
+            </p>
         </div>
     );
 };
