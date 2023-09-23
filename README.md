@@ -1,5 +1,5 @@
-# Personal Site Neo
-My personal website which includes my CV, blog, projects, and
+# `daniilrose.com`
+My personal website which includes my CV, projects, and
 information about me. Built to be simple, and get the point across
 efficiently. Hosted on my homelab.
 
