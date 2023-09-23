@@ -113,7 +113,7 @@ const CVTitle = () => {
         <a href="https://www.daniilrose.com/" className="cv-link">
           www.daniilrose.com
         </a> -{" "}
-        <a href="/cv.pdf" className="cv-link">PDF</a>
+        <a href="https://www.daniilrose.com/files/Resume.pdf" className="cv-link">PDF</a>
       </h2>
       <hr className="cv-linebreak" />
       <div className="flex flex-wrap place-items-center justify-center gap-4 pt-2">
