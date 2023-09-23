@@ -6,12 +6,14 @@ const CVEducation = () => {
             <h2 className="cv-section-title">work experience</h2>
             <div className="container p-2">
                 <h3 className="cv-section-item">
-                    Summer Intern, Peraton Remotec,{" "}
-                    <em>June 2023 - Present</em>
+                    Systems Engineering Intern – Defense Mission Systems (BU), Peraton,{" "}
+                    <em>June 2023 - August 2023</em>
                 </h3>
                 <p className="cv-text">
                     <ul className="cv-list list-disc list-inside text-left">
-                        <li className="cv-list-item">Pending.</li>
+                        <li className="cv-list-item">Utilized ROS, Webots, and GNU/Linux to architect modular software systems for mobile bomb-disposal robots</li>
+			<li className="cv-list-item">Reverse-engineered abandoned internal cloning software codebase to customize open-source disk imaging for streamlined OS deployment</li>
+	    		<li className="cv-list-item">Advised cross-functional teams on integrating new features within existing codebases and dependencies</li>
                     </ul>
                 </p>
             </div>
@@ -22,21 +24,21 @@ const CVEducation = () => {
                 </h3>
                 <p className="cv-text">
                     <ul className="cv-list list-disc list-inside text-left">
-                        <li className="cv-list-item">Responsible for automating testing systems using Jenkins.</li>
-                        <li className="cv-list-item">Designed internal tools to ease developer experience.</li>
+                        <li className="cv-list-item">Administered Docker and Kubernetes clusters to containerize and orchestrate more than 20 internal microservices</li>
+                        <li className="cv-list-item">Advised 10+ developers on best practices for architecture, security, and scalability</li>
                     </ul>
                 </p>
             </div>
             <div className="container p-2">
                 <h3 className="cv-section-item">
-                    Apprentice Satellite Engineer, quub,{" "}
+                    Satellite Engineering Intern, quub,{" "}
                     <em>October 2020 - June 2022</em>
                 </h3>
                 <p className="cv-text">
                     <ul className="cv-list list-disc list-inside text-left">
-                        <li className="cv-list-item">Responsible for PCB design.</li>
-                        <li className="cv-list-item">Designed software for signal processing and drivers.</li>
-                        <li className="cv-list-item">Programmed systems using C, Rust, and Python.</li>
+                        <li className="cv-list-item">Programmed embedded ARM devices in C and Rust using FreeRTOS to run experimental satellite payloads</li>
+                        <li className="cv-list-item">Constructed an interactive miniature satellite tracker using Python and RPi to visualize orbit positions</li>
+                        <li className="cv-list-item">Designed reliable power distribution via solar panels, batteries, and buck converters for low-earth orbit satellites</li>
                     </ul>
                 </p>
             </div>
@@ -47,32 +49,34 @@ const CVEducation = () => {
                 </h3>
                 <p className="cv-text">
                     <ul className="cv-list list-disc list-inside text-left">
-                        <li className="cv-list-item">Responsible for imaging and maintaining computers.</li>
-                        <li className="cv-list-item">Performed basic troubleshooting.</li>
+
+                        <li className="cv-list-item">Administered fleet of 3000 student laptops across 5 school buildings, ensuring proper software versions and configurations</li>
+                        <li className="cv-list-item">Diagnosed hardware and software issues on Windows 10 devices, troubleshooting things like account access and network connectivity</li>
+                        <li className="cv-list-item">Set up wired and wireless networks in computer labs, configuring routers, switches, and cabling</li>
                     </ul>
                 </p>
             </div>
             <div className="container p-2">
                 <h3 className="cv-section-item">
-                    Freelance Software Engineer - Python, White Hat Cat{" "}
-                    <em>February 2020 - December 2020</em>
+                    Software Engineer, Contractor{" "}
+                    <em>February 2020 - June 2021</em>
                 </h3>
                 <p className="cv-text">
                     <ul className="cv-list list-disc list-inside text-left">
-                        <li className="cv-list-item">Designed Discord bots using innovative concepts.</li>
-                        <li className="cv-list-item">Used TensorFlow, Pandas, and PostgreSQL databases.</li>
+	    		<li className="cv-list-item">Engineered chatbots and data pipelines in Python, leveraging NLP and machine learning techniques</li>
+	    		<li className="cv-list-item">Collaborated with over 15 clients to gather requirements, propose solutions, and deliver polished products</li>
                     </ul>
                 </p>
             </div>
             <div className="container p-2">
                 <h3 className="cv-section-item">
-                    Software Engineer - PHP, Ruben Engineering,{" "}
+                    Backend Software Engineer, Ruben Engineering,{" "}
                     <em>March 2020 - March 2021</em>
                 </h3>
                 <p className="cv-text">
                     <ul className="cv-list list-disc list-inside text-left">
-                        <li className="cv-list-item">Designed database interface.</li>
-                        <li className="cv-list-item">Used PHP and Laravel.</li>
+	    		<li className="cv-list-item">Architected REST APIs and database schema to power mobile and web applications</li>
+	    		<li className="cv-list-item">Implemented core app logic and CRUD operations using PHP, Laravel, MySQL, and Vue.js</li>
                     </ul>
                 </p>
             </div>

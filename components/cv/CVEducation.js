@@ -10,19 +10,10 @@ const CVEducation = () => {
                 </h3>
                 <p className="cv-text">
                     <ul className="cv-list list-disc list-inside text-left">
-                        <li className="cv-list-item">B.Sc in Computer Engineering.</li>
-                        <li className="cv-list-item">B.Sc in German.</li>
-                    </ul>
-                </p>
-            </div>
-            <div className="container p-2">
-                <h3 className="cv-section-item">
-                    Garden Spot High School, <em>August 2018 - June 2022</em>
-                </h3>
-                <p className="cv-text">
-                    <ul className="cv-list list-disc list-inside text-left">
-                        <li className="cv-list-item">AP credits in mathematics, science, and history.</li>
-                        <li className="cv-list-item">Honors in all classes.</li>
+                        <li className="cv-list-item">B.S. in Computer Engineering.</li>
+                        <li className="cv-list-item">B.S. in German with an emphasis in Business and Engineering.</li>
+                        <li className="cv-list-item">Minoring in International Engineering and Cybersecurity Computational Foundations.</li>
+			<li className="cv-list-item">Relevant Coursework: Data Structures and Algorithms, Digital Design, Systems Programming</li>
                     </ul>
                 </p>
             </div>

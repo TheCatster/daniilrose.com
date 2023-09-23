@@ -18,11 +18,11 @@ export default function CV() {
             <div className="container cv-container">
                 <CVTitle/>
                 <div className="p-4">
+                    <CVEducation/>
+                    <CVWorkExperience/>
                     <CVTechnicalSkills/>
                     <CVSoftSkills/>
-                    <CVEducation/>
                     <CVConferences/>
-                    <CVWorkExperience/>
                     <CVService/>
                 </div>
             </div>
