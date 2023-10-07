@@ -1,5 +1,0 @@
-.yarn
-node_modules
-docker-compose.yml
-Dockerfile
-docker-compose.yml.example

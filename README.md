@@ -1,12 +1,4 @@
 # `daniilrose.com`
-My personal website which includes my CV, projects, and
-information about me. Built to be simple, and get the point across
-efficiently. Hosted on my homelab.
+My portfolio and personal website. It contains an overview of who I am, my projects, and my resume. Built to be simple and effective. Hosted on my personal homelab!
 
-Redesigned using React, Node, and tailwindcss to still be as minimal
-as possible.
-
-Next.js is used as a framework to more efficiently do what I
-previously tried to implement from scratch.
-
-Includes my CV, Emacs configuration, and more.
+After many different iterations of this site using strange frameworks and not-mainstream languages, I've decided to settle on the battle-tested React. I use Next.js, Tailwindcss, and Typescript.
