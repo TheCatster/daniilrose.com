@@ -5,63 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38d8c9f2-f8d8-4bb5-9aa0-f7c7eeae3c04" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Navbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Projects.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/aboutme/Interests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/aboutme/Intro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/cv/CVConferences.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/cv/CVEducation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/cv/CVService.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/cv/CVSoftSkills.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/cv/CVTechnicalSkills.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/cv/CVTitle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/cv/CVWorkExperience.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/date.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/projects/ForgeMenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/projects/ProjectsList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml.example" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/posts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/404.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/cv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/gh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/projects/srht.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/2021-in-review.org" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/music-recommendations.org" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/void-linux.org" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/gh.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/data/srht.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/danya-profile.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/danya.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/eff.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/fsf.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/github.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/mensa.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/pcb.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/sourcehut.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/stackoverflow.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/twitter.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sourcehut.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/typography.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/about/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/navigation/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/navigation/navbar/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/navigation/navbar/Logo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/navigation/navbar/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/components/navigation/sidebar/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/projects/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -74,6 +43,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -82,25 +54,85 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "website-overhaul",
-    "javascript.nodejs.core.library.configured.version": "20.8.0",
-    "javascript.nodejs.core.library.typings.version": "20.8.0",
-    "last_opened_file_path": "/home/daniil/Programming/daniilrose.com",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "pnpm",
-    "settings.editor.selected.configurable": "settings.javascript.linters.tslint",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;code.cleanup.on.save&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;website-overhaul&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.8.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.8.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/daniil/Programming/daniilrose.com/src/app/projects&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.javascript.linters.eslint&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/daniil/Programming/daniilrose.com/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/projects" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.lint" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -110,7 +142,8 @@
       <option name="presentableId" value="Default" />
       <updated>1696619961730</updated>
       <workItem from="1696619962789" duration="76000" />
-      <workItem from="1696620044126" duration="1486000" />
+      <workItem from="1696620044126" duration="9076000" />
+      <workItem from="1696821590351" duration="2338000" />
     </task>
     <servers />
   </component>
