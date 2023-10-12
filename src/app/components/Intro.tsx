@@ -117,7 +117,6 @@ export default function Intro() {
             <IntroText />
             <div className="flex flex-col place-items-center">
                 <IntroImage />
-                <IntroBadges />
             </div>
         </div>
     );

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Interests = () => {
+export default function Interests() {
   return (
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-2 justify-items-center">
             <div className="items-center justify-center">
@@ -40,5 +40,3 @@ const Interests = () => {
         </div>
     );
 };
-
-export default Interests;
