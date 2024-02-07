@@ -10,7 +10,7 @@ export default function ForgeMenu() {
         Click on a logo to see projects from that forge.
       </div>
       <div className="flex flex-wrap place-items-center justify-center gap-4">
-        <Link href="/projects/srht">
+        <Link href="/projects">
           <a className="hover:bg-gray-200 dark:hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">
             <div className="content-center logo-color">
               <Image
@@ -25,7 +25,7 @@ export default function ForgeMenu() {
             </div>
           </a>
         </Link>
-        <Link href="/projects/gh">
+        <Link href="/projects">
           <a className="hover:bg-gray-200 dark:hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium">
             <div className="content-center logo-color">
               <Image

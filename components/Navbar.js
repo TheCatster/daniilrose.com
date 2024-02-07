@@ -28,7 +28,7 @@ export default function Navbar({ children }) {
                       </div>
                     </a>
                   </Link>
-                  <Link href="/projects/srht">
+                  <Link href="/projects">
                     <a>
                       <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
                         Projects
@@ -111,7 +111,7 @@ export default function Navbar({ children }) {
                     </div>
                   </a>
                 </Link>
-                <Link href="/projects/srht">
+                <Link href="/projects">
                   <a>
                     <div className="hover:bg-gray-200 dark:hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
                       Projects
