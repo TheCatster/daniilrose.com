@@ -8,23 +8,26 @@ import twitterLogo from "../../public/images/twitter.webp";
 
 const SourcehutLink = () => {
   return (
-    <Link href="https://sr.ht/~thecatster">
-      <a target="_blank" rel="noopener noreferrer">
-        <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md">
-          <div className="content-center logo-color">
-            <Image
-              src={srhtLogo}
-              alt="Sourcehut Logo"
-              className="rounded-lg object-scale"
-              priority
-              width={80}
-              height={80}
-              placeholder="blur"
-            />
-          </div>
+    (<Link
+      href="https://sr.ht/~thecatster"
+      target="_blank"
+      rel="noopener noreferrer">
+
+      <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md">
+        <div className="content-center logo-color">
+          <Image
+            src={srhtLogo}
+            alt="Sourcehut Logo"
+            className="rounded-lg object-scale"
+            priority
+            width={80}
+            height={80}
+            placeholder="blur"
+          />
         </div>
-      </a>
-    </Link>
+      </div>
+
+    </Link>)
   );
 };
 
@@ -34,7 +37,7 @@ const GithubLink = () => {
       href="https://github.com/TheCatster"
       target="_blank"
       rel="noopener noreferrer"
-    >
+      legacyBehavior>
       <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md">
         <div className="content-center logo-color">
           <Image
@@ -58,7 +61,7 @@ const TwitterLink = () => {
       href="https://twitter.com/daniilrose"
       target="_blank"
       rel="noopener noreferrer"
-    >
+      legacyBehavior>
       <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md">
         <div className="content-center logo-color">
           <Image
@@ -82,7 +85,7 @@ const StackLink = () => {
       href="https://stackoverflow.com/u/11846534"
       target="_blank"
       rel="noopener noreferrer"
-    >
+      legacyBehavior>
       <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md">
         <div className="content-center logo-color">
           <Image

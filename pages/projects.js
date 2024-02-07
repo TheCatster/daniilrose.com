@@ -1,10 +1,10 @@
-//import ProjectsList from "../../components/projects/ProjectsList";
+import ProjectsList from "@/components/projects/ProjectsList";
 import Head from "next/head";
-import Layout from "../../components/layout";
-import ForgeMenu from "../../components/projects/ForgeMenu";
+import Layout from "@/components/layout";
+import ForgeMenu from "@/components/projects/ForgeMenu";
 
 export async function getServerSideProps() {
-	let data = require("../../public/data/gh.json");
+	let data = require("@/data/gh.json");
 
 	return { props: data };
 }

@@ -13,7 +13,7 @@ export default function ForgeMenu() {
         <Link
           href="/projects"
           className="hover:bg-gray-200 dark:hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
-        >
+          legacyBehavior>
           <div className="content-center logo-color">
             <Image
               src={srhtLogo}
@@ -29,7 +29,7 @@ export default function ForgeMenu() {
         <Link
           href="/projects"
           className="hover:bg-gray-200 dark:hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
-        >
+          legacyBehavior>
           <div className="content-center logo-color">
             <Image
               src={ghLogo}
