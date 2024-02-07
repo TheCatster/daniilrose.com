@@ -1,27 +1,29 @@
 import ProjectsList from "@/components/projects/ProjectsList";
 import Head from "next/head";
 import Layout from "@/components/layout";
-import ForgeMenu from "@/components/projects/ForgeMenu";
 
 export async function getServerSideProps() {
-	let data = require("@/data/gh.json");
+	const response = await fetch(
+		"https://www.daniilrose.com/files/projects.json",
+	);
+	const data = await response.json();
 
 	return { props: data };
 }
 
-export default function GitHub(data) {
+export default function Projects(data) {
 	return (
 		<Layout>
 			<Head>
-				<title>GitHub Contributions - Daniil Rose</title>
+				<title>Projects - Daniil Rose</title>
 			</Head>
 			<div>
 				<h1 className="text-4xl text-center pb-4">Projects</h1>
-				<ForgeMenu />
 				<div className="container place-items-center justify-center text-center text-xl overflow-clip p-2">
 					<div>
-						My public contributions are mostly made on GitHub. Some of my
-						projects are also mirrored to GitHub.
+						Below are projects that I have worked on. Some of them are
+						open-source, and some are private. I have also contributed to other
+						projects. Click on any project to see its GitHub page.
 					</div>
 				</div>
 				<ProjectsList

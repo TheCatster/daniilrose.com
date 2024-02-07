@@ -1,18 +1,18 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import ghLogo from "../../public/images/github.webp";
-import srhtLogo from "../../public/images/sourcehut.webp";
-import stackLogo from "../../public/images/stackoverflow.webp";
-import twitterLogo from "../../public/images/twitter.webp";
+import ghLogo from "@/images/github.webp";
+import srhtLogo from "@/images/sourcehut.webp";
+import stackLogo from "@/images/stackoverflow.webp";
+import twitterLogo from "@/images/twitter.webp";
 
 const SourcehutLink = () => {
   return (
-    (<Link
+    <Link
       href="https://sr.ht/~thecatster"
       target="_blank"
-      rel="noopener noreferrer">
-
+      rel="noopener noreferrer"
+    >
       <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md">
         <div className="content-center logo-color">
           <Image
@@ -26,8 +26,7 @@ const SourcehutLink = () => {
           />
         </div>
       </div>
-
-    </Link>)
+    </Link>
   );
 };
 
@@ -37,7 +36,8 @@ const GithubLink = () => {
       href="https://github.com/TheCatster"
       target="_blank"
       rel="noopener noreferrer"
-      legacyBehavior>
+      legacyBehavior
+    >
       <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md">
         <div className="content-center logo-color">
           <Image
@@ -61,7 +61,8 @@ const TwitterLink = () => {
       href="https://twitter.com/daniilrose"
       target="_blank"
       rel="noopener noreferrer"
-      legacyBehavior>
+      legacyBehavior
+    >
       <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md">
         <div className="content-center logo-color">
           <Image
@@ -85,7 +86,8 @@ const StackLink = () => {
       href="https://stackoverflow.com/u/11846534"
       target="_blank"
       rel="noopener noreferrer"
-      legacyBehavior>
+      legacyBehavior
+    >
       <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md">
         <div className="content-center logo-color">
           <Image
