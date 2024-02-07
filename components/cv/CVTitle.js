@@ -30,66 +30,72 @@ const SourcehutLink = () => {
 
 const GithubLink = () => {
   return (
-    <Link href="https://github.com/TheCatster">
-      <a target="_blank" rel="noopener noreferrer">
-        <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md">
-          <div className="content-center logo-color">
-            <Image
-              src={ghLogo}
-              alt="Github Logo"
-              className="rounded-lg object-scale"
-              priority
-              width={80}
-              height={80}
-              placeholder="blur"
-            />
-          </div>
+    <Link
+      href="https://github.com/TheCatster"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md">
+        <div className="content-center logo-color">
+          <Image
+            src={ghLogo}
+            alt="Github Logo"
+            className="rounded-lg object-scale"
+            priority
+            width={80}
+            height={80}
+            placeholder="blur"
+          />
         </div>
-      </a>
+      </div>
     </Link>
   );
 };
 
 const TwitterLink = () => {
   return (
-    <Link href="https://twitter.com/daniilrose">
-      <a target="_blank" rel="noopener noreferrer">
-        <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md">
-          <div className="content-center logo-color">
-            <Image
-              src={twitterLogo}
-              alt="Twitter Logo"
-              className="rounded-lg object-scale"
-              priority
-              width={80}
-              height={80}
-              placeholder="blur"
-            />
-          </div>
+    <Link
+      href="https://twitter.com/daniilrose"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md">
+        <div className="content-center logo-color">
+          <Image
+            src={twitterLogo}
+            alt="Twitter Logo"
+            className="rounded-lg object-scale"
+            priority
+            width={80}
+            height={80}
+            placeholder="blur"
+          />
         </div>
-      </a>
+      </div>
     </Link>
   );
 };
 
 const StackLink = () => {
   return (
-    <Link href="https://stackoverflow.com/u/11846534">
-      <a target="_blank" rel="noopener noreferrer">
-        <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md">
-          <div className="content-center logo-color">
-            <Image
-              src={stackLogo}
-              alt="Stackoverflow Logo"
-              className="rounded-lg object-scale"
-              priority
-              width={80}
-              height={80}
-              placeholder="blur"
-            />
-          </div>
+    <Link
+      href="https://stackoverflow.com/u/11846534"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md">
+        <div className="content-center logo-color">
+          <Image
+            src={stackLogo}
+            alt="Stackoverflow Logo"
+            className="rounded-lg object-scale"
+            priority
+            width={80}
+            height={80}
+            placeholder="blur"
+          />
         </div>
-      </a>
+      </div>
     </Link>
   );
 };
@@ -112,8 +118,14 @@ const CVTitle = () => {
         -{" "}
         <a href="https://www.daniilrose.com/" className="cv-link">
           www.daniilrose.com
-        </a> -{" "}
-        <a href="https://www.daniilrose.com/files/Resume.pdf" className="cv-link">PDF</a>
+        </a>{" "}
+        -{" "}
+        <a
+          href="https://www.daniilrose.com/files/Resume.pdf"
+          className="cv-link"
+        >
+          PDF
+        </a>
       </h2>
       <hr className="cv-linebreak" />
       <div className="flex flex-wrap place-items-center justify-center gap-4 pt-2">

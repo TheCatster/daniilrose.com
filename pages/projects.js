@@ -1,4 +1,4 @@
-import ProjectsList from "../../components/projects/ProjectsList";
+//import ProjectsList from "../../components/projects/ProjectsList";
 import Head from "next/head";
 import Layout from "../../components/layout";
 import ForgeMenu from "../../components/projects/ForgeMenu";

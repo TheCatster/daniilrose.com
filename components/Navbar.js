@@ -13,34 +13,26 @@ export default function Navbar({ children }) {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <Link href="/">
-                <a>
-                  <div className="flex-shrink-0 font-bold text-xl">
-                    Daniil Rose
-                  </div>
-                </a>
+                <div className="flex-shrink-0 font-bold text-xl">
+                  Daniil Rose
+                </div>
               </Link>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <Link href="/">
-                    <a>
-                      <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
-                        About Me
-                      </div>
-                    </a>
+                    <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+                      About Me
+                    </div>
                   </Link>
                   <Link href="/projects">
-                    <a>
-                      <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
-                        Projects
-                      </div>
-                    </a>
+                    <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+                      Projects
+                    </div>
                   </Link>
                   <Link href="/cv">
-                    <a>
-                      <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
-                        CV
-                      </div>
-                    </a>
+                    <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+                      CV
+                    </div>
                   </Link>
                 </div>
               </div>
@@ -105,25 +97,19 @@ export default function Navbar({ children }) {
             <div className="md:hidden" id="mobile-menu">
               <div ref={inputRef} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <Link href="/">
-                  <a>
-                    <div className="hover:bg-gray-200 dark:hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
-                      About Me
-                    </div>
-                  </a>
+                  <div className="hover:bg-gray-200 dark:hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
+                    About Me
+                  </div>
                 </Link>
                 <Link href="/projects">
-                  <a>
-                    <div className="hover:bg-gray-200 dark:hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
-                      Projects
-                    </div>
-                  </a>
+                  <div className="hover:bg-gray-200 dark:hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
+                    Projects
+                  </div>
                 </Link>
                 <Link href="/cv">
-                  <a>
-                    <div className="hover:bg-gray-200 dark:hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
-                      CV
-                    </div>
-                  </a>
+                  <div className="hover:bg-gray-200 dark:hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
+                    CV
+                  </div>
                 </Link>
               </div>
             </div>
