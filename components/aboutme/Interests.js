@@ -6,7 +6,7 @@ const ProgrammingLanguages = (props) => {
       <h4 className="text-md lg:text-lg font-bold interests-title">
         Programming
       </h4>
-      <ul>
+      <ul className="p-0">
         <li>Rust</li>
         <li>C</li>
         <li>Python</li>
@@ -18,15 +18,15 @@ const ProgrammingLanguages = (props) => {
 
 const Languages = (props) => {
   return (
-    <div>
+    <div className="items-center justify-center">
       <h4 className="text-md lg:text-lg font-bold interests-title">
         Languages
       </h4>
-      <ul>
-        <li>Russian: Native</li>
-        <li>English: Native</li>
-        <li>German: A2</li>
-        <li>Simplified Chinese: A1</li>
+      <ul className="p-0">
+        <li>Russian</li>
+        <li>English</li>
+        <li>German</li>
+        <li>Simplified Chinese</li>
       </ul>
     </div>
   );
@@ -34,11 +34,11 @@ const Languages = (props) => {
 
 const Instruments = (props) => {
   return (
-    <div>
+    <div className="items-center justify-center">
       <h4 className="text-md lg:text-lg font-bold interests-title">
         Instruments
       </h4>
-      <ul>
+      <ul className="p-0">
         <li>Vibraphone</li>
         <li>Marimba</li>
         <li>Piano</li>
@@ -50,7 +50,7 @@ const Instruments = (props) => {
 
 const InterestsContent = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-items-center">
+    <div className="grid grid-cols-1 md:grid-cols-3 justify-items-center">
       <ProgrammingLanguages />
       <Languages />
       <Instruments />
@@ -60,7 +60,7 @@ const InterestsContent = () => {
 
 const Interests = () => {
   return (
-    <div className="p-2">
+    <div className="">
       <InterestsContent />
     </div>
   );

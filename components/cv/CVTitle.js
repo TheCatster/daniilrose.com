@@ -5,6 +5,31 @@ import ghLogo from "@/images/github.webp";
 import srhtLogo from "@/images/sourcehut.webp";
 import stackLogo from "@/images/stackoverflow.webp";
 import twitterLogo from "@/images/twitter.webp";
+import linkedinLogo from "@/images/linkedin.webp";
+
+const LinkedInLink = () => {
+  return (
+    <Link
+      href="https://www.linkedin.com/in/daniil-rose/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 rounded-md">
+        <div className="content-center logo-color">
+          <Image
+            src={linkedinLogo}
+            alt="LinkedIn Logo"
+            className="rounded-lg object-scale"
+            priority
+            width={80}
+            height={80}
+            placeholder="blur"
+          />
+        </div>
+      </div>
+    </Link>
+  );
+};
 
 const SourcehutLink = () => {
   return (
@@ -13,7 +38,7 @@ const SourcehutLink = () => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md">
+      <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 rounded-md">
         <div className="content-center logo-color">
           <Image
             src={srhtLogo}
@@ -36,9 +61,8 @@ const GithubLink = () => {
       href="https://github.com/TheCatster"
       target="_blank"
       rel="noopener noreferrer"
-      legacyBehavior
     >
-      <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md">
+      <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 rounded-md">
         <div className="content-center logo-color">
           <Image
             src={ghLogo}
@@ -61,9 +85,8 @@ const TwitterLink = () => {
       href="https://twitter.com/daniilrose"
       target="_blank"
       rel="noopener noreferrer"
-      legacyBehavior
     >
-      <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md">
+      <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 rounded-md">
         <div className="content-center logo-color">
           <Image
             src={twitterLogo}
@@ -86,9 +109,8 @@ const StackLink = () => {
       href="https://stackoverflow.com/u/11846534"
       target="_blank"
       rel="noopener noreferrer"
-      legacyBehavior
     >
-      <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md">
+      <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 rounded-md">
         <div className="content-center logo-color">
           <Image
             src={stackLogo}
@@ -136,6 +158,7 @@ const CVTitle = () => {
       <div className="flex flex-wrap place-items-center justify-center gap-4 pt-2">
         <SourcehutLink />
         <GithubLink />
+        <LinkedInLink />
         <TwitterLink />
         <StackLink />
       </div>
