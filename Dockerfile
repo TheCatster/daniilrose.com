@@ -7,9 +7,9 @@ WORKDIR /usr/src/app
 COPY . /usr/src/app
 
 # Install app dependencies and build react app
-RUN npm install
+RUN pnpm install
 RUN npx next telemetry disable
-RUN npm run build
+RUN pnpm build
 
 EXPOSE 3000
-CMD [ "npm", "start" ]
+CMD [ "pnpm", "start" ]
