@@ -1,15 +1,20 @@
-FROM node:current
+FROM node:20-slim AS base
+ENV PNPM_HOME="/pnpm"
+ENV PATH="$PNPM_HOME:$PATH"
+RUN corepack enable
+COPY . /app
+WORKDIR /app
 
-# Create app directory
-WORKDIR /usr/src/app
+FROM base AS prod-deps
+RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --prod --frozen-lockfile
 
-# Copy source to work dir
-COPY . /usr/src/app
-
-# Install app dependencies and build react app
-RUN pnpm install
+FROM base AS build
+RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile
 RUN npx next telemetry disable
-RUN pnpm build
+RUN pnpm run build
 
+FROM base
+COPY --from=prod-deps /app/node_modules /app/node_modules
+COPY --from=build /app/dist /app/dist
 EXPOSE 3000
 CMD [ "pnpm", "start" ]
