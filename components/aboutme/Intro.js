@@ -45,11 +45,10 @@ const IntroImage = () => {
     return (
         <div className="content-center px-1">
             <Image
-                className="rounded-lg p-0"
+                className="rounded-lg p-0 w-10 h-10 object-scale"
                 src={me}
                 alt="Daniil Rose"
                 sizes="100vw"
-                width={700}
                 style={{
                     width: "100%",
                     height: "auto",
