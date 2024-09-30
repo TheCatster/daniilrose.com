@@ -9,16 +9,18 @@ const IntroText = () => {
     return (
         <div className="box-content p-4 text-sm lg:text-md">
             <p>
-                My name is Daniil Rose. I am dual-majoring in Computer Engineering and
-                German at Penn State University. I am passionate about Operating
-                Systems, Rust, and hardware hacking. I have experience in a variety of
-                fields: from working with bomb-disposal robots using ROS and Bash, to
+                My name is Daniil Rose. I am a triple major at Penn State University, studying Computer Engineering,
+                German, and a Master's in International Affairs. I am passionate about engineering and corporate development,
+                and seek to use my diverse experience in engineering and leadership to further the world of corporate policy.
+                On the engineering side, I have experience in a variety of fields: from working on bomb-disposal robots using ROS and Bash, to
                 experience programming cubesats that have gone to space!
             </p>
             <p>
-                I worked over the summer as an intern at Peraton Remotec, helping design
-                systems for robots using ROS. I created an encrypted quick-patch system
-                for updating Remotec robots easily. I previously worked as an embedded
+                I worked over the summer as an intern at RTD Embedded Technologies and continue
+                working there during the school year, spearheading a new IoT product line, designing
+                firmware for embedded systems and
+                designing new processes to enable smoother operations for manufacturing.
+                I previously worked as a systems engineering intern at Peraton Remotec, an embedded
                 systems engineer at Quub, a start-up satellite firm, which included
                 mechanical and electrical components. I designed PCBs and mechanical
                 parts in CAD programs such as KiCad, Eagle, SolidWorks, and Fusion 360,
