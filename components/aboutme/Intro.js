@@ -10,7 +10,7 @@ const IntroText = () => {
         <div className="box-content p-4 text-sm lg:text-md">
             <p>
                 My name is Daniil Rose. I am a triple major at Penn State University, studying Computer Engineering,
-                German, and a Master's in International Affairs. I am passionate about engineering and corporate development,
+                German, and a Master&apos;s in International Affairs. I am passionate about engineering and corporate development,
                 and seek to use my diverse experience in engineering and leadership to further the world of corporate policy.
                 On the engineering side, I have experience in a variety of fields: from working on bomb-disposal robots using ROS and Bash, to
                 experience programming cubesats that have gone to space!
