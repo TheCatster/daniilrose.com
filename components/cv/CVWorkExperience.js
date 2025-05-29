@@ -3,7 +3,26 @@ import React from "react";
 const CVWorkExperience = () => {
   return (
     <div>
-      <h2 className="cv-section-title">work experience</h2>
+      <h2 className="cv-section-title">relevant experience</h2>
+
+	<div className="container p-2">
+	  <h3 className="cv-section-item">
+	    President, Graduate and Professional Student Association – Graduate Student Government, <em>August 2024 - Present</em>
+	  </h3>
+	  <p className="cv-text">
+	    <ul className="cv-list list-disc list-inside text-left">
+	      <li className="cv-list-item">
+	  	Representing over 13000 graduate and professional students across all academic colleges
+	      </li>
+	      <li className="cv-list-item">
+		Organizing and marketing social engagement opportunities to bolster community cohesion
+	      </li>
+	      <li className="cv-list-item">
+		Engaging in discussions on graduate student funding, academic affairs, and institutional decision‑making
+	      </li>
+	    </ul>
+	  </p>
+	</div>
 
       <div className="container p-2">
         <h3 className="cv-section-item">
@@ -14,7 +33,7 @@ const CVWorkExperience = () => {
           <ul className="cv-list list-disc list-inside text-left">
             <li className="cv-list-item">
               Engaged in student peer mentoring, providing guidance and support
-              to engineering students
+              to 100+ engineering students
             </li>
             <li className="cv-list-item">
               Delivered career-focused presentations, conveying essential
@@ -32,12 +51,12 @@ const CVWorkExperience = () => {
         <p className="cv-text">
           <ul className="cv-list list-disc list-inside text-left">
             <li className="cv-list-item">
-              Conducted comprehensive research in lock-free and wait-free
-              operating systems, contributing to ongoing projects
+	      Conducting comprehensive research on lock-free and wait-free 
+	      operating systems, contributing to ongoing projects
             </li>
             <li className="cv-list-item">
-              Experimented with designing a microkernel-based library operating
-              system using no standard Rust
+	      Analyzing dozens of workshop- and conference papers on computer systems
+	      to assist with writing white papers
             </li>
           </ul>
         </p>

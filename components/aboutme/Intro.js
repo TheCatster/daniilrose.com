@@ -9,35 +9,32 @@ const IntroText = () => {
     return (
         <div className="box-content p-4 text-sm lg:text-md">
             <p>
-                My name is Daniil Rose. I am a triple major at Penn State University, studying Computer Engineering,
-                German, and a Master&apos;s in International Affairs. I am passionate about engineering and corporate development,
-                and seek to use my diverse experience in engineering and leadership to further the world of corporate policy.
-                On the engineering side, I have experience in a variety of fields: from working on bomb-disposal robots using ROS and Bash, to
-                experience programming cubesats that have gone to space!
+                My name is Daniil Rose. I am an integrated undergraduate-graduate (IUG)
+	    	student at The Pennsylvania State University (WE ARE!)- concurrently pursuing
+	    	a master&apos;s in international affairs, a Bachelor of Science in computer engineering,
+	    	and a Bachelor of Science in German. At Penn State, I serve as the <b>President</b> of
+	    	the 75th Assembly of the Graduate and Professional Student Association, or <em>GPSA</em>.
+	    	I also have the honor of serving as the <b>emcee</b> for Penn State Homecoming (2025).
+            </p>
+	    <p>
+	    	I am passionate about engineering and technology policy,
+                and seek to use my diverse experience in engineering and leadership to
+	    	further the world of policy. In particular, I actively research polycentricity
+	    	in a globalized world from the perspective of artificial intelligence governance.
+                On the engineering side, I have experience in a variety of fields: from
+	    	working on bomb-disposal robots to experience developing 
+	    	satellites that have gone to space!
             </p>
             <p>
-                I worked over the summer as an intern at RTD Embedded Technologies and continue
-                working there during the school year, spearheading a new IoT product line, designing
-                firmware for embedded systems and
+                I worked over the summer as an intern at RTD Embedded Technologies and continued
+                working there throughout the 2024 - 2025 school year, spearheading a new IoT
+	    	product line, designing firmware for embedded systems and
                 designing new processes to enable smoother operations for manufacturing.
                 I previously worked as a systems engineering intern at Peraton Remotec, an embedded
                 systems engineer at Quub, a start-up satellite firm, which included
                 mechanical and electrical components. I designed PCBs and mechanical
                 parts in CAD programs such as KiCad, Eagle, SolidWorks, and Fusion 360,
-                and programmed my systems in the C, Rust, and Python languages.
-            </p>
-            <p>
-                I am a member of the <em>Free Software Foundation</em>, the{" "}
-                <em>IEEE</em> and the <em>Electronic Frontier Foundation</em>. Most of
-                my projects are GNU GPL v3.0 licensed, and I believe in the freedom of
-                knowledge, as well as self-hosting and decentralisation.
-            </p>
-            <p>
-                I pride myself in being as efficient and knowledgeable as is reasonable.
-                This applies to all my work, whether it is programming, CAD design, or
-                everyday life. I have strong communication skills, and utilise these to
-                further my understanding of all topics and to work effectively with
-                people of all different kinds of backgrounds.
+                and programmed my systems using the C, Rust, and Python languages.
             </p>
         </div>
     );

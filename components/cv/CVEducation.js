@@ -10,13 +10,11 @@ const CVEducation = () => {
         </h3>
         <p className="cv-text">
           <ul className="cv-list list-disc list-inside text-left">
-            <li className="cv-list-item">B.S. in Computer Engineering.</li>
+            <li className="cv-list-item">Master of International Affairs concentrating in
+	  	Law, Policy and Engineering</li>
+            <li className="cv-list-item">Bachelor of Science in Computer Engineering</li>
             <li className="cv-list-item">
-              B.S. in German with an emphasis in Business and Engineering.
-            </li>
-            <li className="cv-list-item">
-              Minoring in International Engineering and Cybersecurity
-              Computational Foundations.
+              Bachelor of Science in German with an emphasis in Business and Engineering
             </li>
             <li className="cv-list-item">
               Relevant Coursework: Data Structures and Algorithms, Digital
