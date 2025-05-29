@@ -24,11 +24,6 @@ export default function Navbar({ children }) {
                       About Me
                     </div>
                   </Link>
-                  <Link href="/projects" legacyBehavior>
-                    <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
-                      Projects
-                    </div>
-                  </Link>
                   <Link href="/cv" legacyBehavior>
                     <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
                       CV
@@ -99,11 +94,6 @@ export default function Navbar({ children }) {
                 <Link href="/" legacyBehavior>
                   <div className="hover:bg-gray-200 dark:hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
                     About Me
-                  </div>
-                </Link>
-                <Link href="/projects" legacyBehavior>
-                  <div className="hover:bg-gray-200 dark:hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
-                    Projects
                   </div>
                 </Link>
                 <Link href="/cv" legacyBehavior>
