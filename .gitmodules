@@ -1,0 +1,4 @@
+[submodule "posts"]
+	path = posts
+	url = git@github.com:TheCatster/blog-posts.git
+	branch = master
