@@ -1,6 +1,7 @@
 import Layout from "@/components/layout";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 import { getAllPostIds, getPostData } from "@/lib/posts";
 import Date from "@/components/date";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
@@ -57,10 +58,18 @@ export default function Post({ postData }) {
             </div>
           </div>
           <div className="text-justify text-base">
-<ReactMarkdown
+    <ReactMarkdown
             rehypePlugins={[rehypeRaw]}
             children={postData.contentHtml}
             components={{
+              a({ href, children }) {
+                return (
+                  <Link href={href} target="_blank" rel="noopener noreferrer" className="text-orange-feels hover:underline hover:bg-gray-200 dark:hover:bg-gray-700">
+                    {children}
+                  </Link>
+                );
+              },
+
               code({ node, inline, className, children, ...props }) {
                 const match = /language-(\w+)/.exec(className || "");
                 return !inline && match ? (
@@ -74,20 +83,19 @@ export default function Post({ postData }) {
                 ) : (
                   <code className={className} {...props}>
                     {children}
-                  </code>
+                  </code> 
                 );
               },
 
               img({ src, title }) {
                 return (
-                  <div className="container text-center content-center place-items-center logo-color">
+                  <div className="flex justify-center place-items-center">
                     <Image
                       src={src}
-                      alt={title}
-                      width={140}
-                      height={140}
-                      className="rounded-lg object-scale"
-                      priority
+                      alt={title || `Image at ${src}`}
+                      height={500}
+                      width={500}
+                      className="rounded-lg p-0 object-scale"
                     />
                   </div>
                 );

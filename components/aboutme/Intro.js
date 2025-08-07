@@ -14,7 +14,7 @@ const IntroText = () => {
 	    	student at The Pennsylvania State University (WE ARE!)- concurrently pursuing
 	    	a master&apos;s in international affairs, a Bachelor of Science in computer engineering,
 	    	and a Bachelor of Science in German under the supervision of
-            {" "}<Link className="text-orange-feels hover:bg-gray-200 dark:hover:bg-gray-700" href="https://www.backerinlaw.com">Dr. Larry Catá Backer</Link>.
+            {" "}<Link className="text-orange-feels hover:underline hover:bg-gray-200 dark:hover:bg-gray-700" target="_blank" rel="noopener noreferrer" href="https://www.backerinlaw.com">Dr. Larry Catá Backer</Link>.
             At Penn State, I serve as the President of
 	    	the 75th Assembly of the Graduate and Professional Student Association, or <em>GPSA</em>.
 	    	I also have the honor of serving as the emcee for Penn State Homecoming (2025).
@@ -30,7 +30,7 @@ const IntroText = () => {
             </p>
             <p>
                 This past summer, I worked for 
-                {" "}<Link className="text-orange-feels hover:bg-gray-200 dark:hover:bg-gray-700" href="https://ieeeusa.org">IEEE</Link>{" "}
+                {" "}<Link className="text-orange-feels hover:underline hover:bg-gray-200 dark:hover:bg-gray-700" target="_blank" rel="noopener noreferrer" href="https://ieeeusa.org">IEEE</Link>{" "}
                 in Washington D.C., writing a policy proposal about research translation.
                 I previously interned at RTD Embedded Technologies and continued
                 working there throughout the 2024 - 2025 school year, spearheading a new IoT

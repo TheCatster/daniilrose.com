@@ -38,6 +38,9 @@ importers:
       headlessui:
         specifier: ^0.0.0
         version: 0.0.0
+      image-size:
+        specifier: ^2.0.2
+        version: 2.0.2
       imagemin-mozjpeg:
         specifier: ^10.0.0
         version: 10.0.0
@@ -2947,6 +2950,11 @@ packages:
 
   image-q@4.0.0:
     resolution: {integrity: sha512-PfJGVgIfKQJuq3s0tTDOKtztksibuUEbJQIYT3by6wctQo+Rdlh7ef4evJ5NCdxY4CfMbvFkocEwbl4BF8RlJw==}
+
+  image-size@2.0.2:
+    resolution: {integrity: sha512-IRqXKlaXwgSMAMtpNzZa1ZAe8m+Sa1770Dhk8VkSsP9LS+iHD62Zd8FQKs8fbPiagBE7BzoFX23cxFnwshpV6w==}
+    engines: {node: '>=16.x'}
+    hasBin: true
 
   imagemin-mozjpeg@10.0.0:
     resolution: {integrity: sha512-DK85QNOjS3/GzWYfNB3CACMZD10sIQgFDv1+WTOnZljgltQTEyATjdyUVyjKu5q4sCESQdwvwq7WEZzJ5fFjlg==}
@@ -8901,6 +8909,8 @@ snapshots:
   image-q@4.0.0:
     dependencies:
       '@types/node': 16.9.1
+
+  image-size@2.0.2: {}
 
   imagemin-mozjpeg@10.0.0:
     dependencies:
