@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from "next/script";
 import Navbar from "./Navbar";
 import { Rubik } from 'next/font/google'
  
@@ -20,6 +21,12 @@ export default function Layout({ children }) {
       <div className="container mx-auto max-w-7xl">
         <Navbar>{children}</Navbar>
       </div>
+      <Script
+          async
+          defer
+          data-website-id="92fdacb6-2085-4d3d-b97c-8e0764149428"
+          src="https://webstats.daniilrose.com/umami.js"
+      />
     </div>
   );
 }
