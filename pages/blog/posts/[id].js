@@ -32,7 +32,7 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title + " | Daniil Rose"}</title>
       </Head>
-      <div className="place-items-center justify-center px-4">
+      <div className="w-full overflow-x-auto place-items-center justify-center px-4">
         <article>
           <div className="py-4">
             <h1 className="text-3xl lg:text-4xl text-orange-feels">
@@ -67,6 +67,16 @@ export default function Post({ postData }) {
                   <Link href={href} target="_blank" rel="noopener noreferrer" className="text-orange-feels hover:underline hover:bg-gray-200 dark:hover:bg-gray-700">
                     {children}
                   </Link>
+                );
+              },
+
+              table({ children }) {
+                return (
+                  <div className="overflow-x-auto">
+                    <table className="table-auto min-w-full divide-y divide-gray-700 text-sm text-gray-200 mb-4">
+                      {children}
+                    </table>
+                  </div>
                 );
               },
 
