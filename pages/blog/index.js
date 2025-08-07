@@ -1,10 +1,10 @@
-import Layout from "../../components/layout";
+import Layout from "@/components/layout";
 import Head from "next/head";
 import Link from "next/link";
-import Date from "../../components/date";
+import Date from "@/components/date";
 import Image from "next/image";
-import cover from "../../public/images/pcb.webp";
-import { getSortedPostsData } from "../../lib/posts";
+import cover from "@/images/pcb.webp";
+import { getSortedPostsData } from "@/lib/posts";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();

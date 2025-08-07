@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import me from "../../public/images/danya.webp";
-import fsf from "../../public/images/fsf.webp";
-import eff from "../../public/images/eff.webp";
-import mensa from "../../public/images/mensa.webp";
+import me from "@/images/danya.webp";
+import fsf from "@/images/fsf.webp";
+import eff from "@/images/eff.webp";
+import mensa from "@/images/mensa.webp";
 
 const IntroText = () => {
     return (

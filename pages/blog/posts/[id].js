@@ -1,8 +1,8 @@
-import Layout from "../../../components/layout";
+import Layout from "@/components/layout";
 import Head from "next/head";
 import Image from "next/image";
-import { getAllPostIds, getPostData } from "../../../lib/posts";
-import Date from "../../../components/date";
+import { getAllPostIds, getPostData } from "@/lib/posts";
+import Date from "@/components/date";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { atomDark } from "react-syntax-highlighter/dist/cjs/styles/prism";
 import ReactMarkdown from "react-markdown";
