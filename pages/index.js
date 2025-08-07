@@ -1,8 +1,8 @@
 import Layout from "@/components/layout";
 import Head from "next/head";
 import Script from "next/script";
-import Intro from "../components/aboutme/Intro";
-import Interests from "../components/aboutme/Interests";
+import Intro from "@/components/aboutme/Intro";
+import Interests from "@/components/aboutme/Interests";
 
 export default function Home() {
     return (
@@ -17,7 +17,9 @@ export default function Home() {
                 <title>Daniil Rose</title>
             </Head>
             <Intro />
-            <Interests />
+            <div className="hidden md:block">
+                <Interests />
+            </div>
         </Layout>
     );
 }

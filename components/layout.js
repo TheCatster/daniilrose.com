@@ -13,7 +13,7 @@ export default function Layout({ children }) {
           content="Daniil Rose's personal site, including his CV and blog."
         />
       </Head>
-      <div className="md:container md:mx-auto">
+      <div className="container mx-auto max-w-7xl">
         <Navbar>{children}</Navbar>
       </div>
     </div>

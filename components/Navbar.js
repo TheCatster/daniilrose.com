@@ -20,12 +20,17 @@ export default function Navbar({ children }) {
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
                   <Link href="/cv">
-                    <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+                    <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md text-base font-medium">
                       CV
                     </div>
                   </Link>
+                  <Link href="/blog">
+                    <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md text-base font-medium">
+                      Blog
+                    </div>
+                  </Link>                  
                   <Link href="https://github.com/TheCatster">
-                    <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+                    <div className="hover:bg-gray-200 dark:hover:bg-gray-700 px-3 py-2 rounded-md text-base font-medium">
                       GitHub
                     </div>
                   </Link>
@@ -96,6 +101,11 @@ export default function Navbar({ children }) {
                     CV
                   </div>
                 </Link>
+                <Link href="/blog">
+                  <div className="hover:bg-gray-200 dark:hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
+                    Blog
+                  </div>
+                </Link>                
                 <Link href="https://github.com/TheCatster">
                   <div className="hover:bg-gray-200 dark:hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">
                     GitHub

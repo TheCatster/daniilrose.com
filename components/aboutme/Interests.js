@@ -3,7 +3,7 @@ import React from "react";
 const ProgrammingLanguages = (props) => {
   return (
     <div className="items-center justify-center">
-      <h4 className="text-md lg:text-lg font-bold interests-title">
+      <h4 className="font-bold interests-title">
         Programming
       </h4>
       <ul className="p-0">
@@ -19,7 +19,7 @@ const ProgrammingLanguages = (props) => {
 const Languages = (props) => {
   return (
     <div className="items-center justify-center">
-      <h4 className="text-md lg:text-lg font-bold interests-title">
+      <h4 className="font-bold interests-title">
         Languages
       </h4>
       <ul className="p-0">
@@ -35,7 +35,7 @@ const Languages = (props) => {
 const Instruments = (props) => {
   return (
     <div className="items-center justify-center">
-      <h4 className="text-md lg:text-lg font-bold interests-title">
+      <h4 className="font-bold interests-title">
         Instruments
       </h4>
       <ul className="p-0">

@@ -5,69 +5,121 @@ const CVWorkExperience = () => {
     <div>
       <h2 className="cv-section-title">relevant experience</h2>
 
-	<div className="container p-2">
-	  <h3 className="cv-section-item">
-	    President, Graduate and Professional Student Association – Graduate Student Government, <em>August 2024 - Present</em>
-	  </h3>
-	  <p className="cv-text">
-	    <ul className="cv-list list-disc list-inside text-left">
-	      <li className="cv-list-item">
-	  	Representing over 13000 graduate and professional students across all academic colleges
-	      </li>
-	      <li className="cv-list-item">
-		Organizing and marketing social engagement opportunities to bolster community cohesion
-	      </li>
-	      <li className="cv-list-item">
-		Engaging in discussions on graduate student funding, academic affairs, and institutional decision‑making
-	      </li>
-	    </ul>
-	  </p>
-	</div>
+      <div className="container p-2">
+        <h3 className="cv-section-item">
+          Policy Researcher, WISE Intern
+        </h3>
+        <h4>
+          IEEE-USA, Washington, D.C.; <em>June 2025 - August 2025</em>
+        </h4>
+        <div className="cv-text">
+          <ul className="cv-list list-disc list-inside text-left">
+            <li className="cv-list-item">
+          Conducting research on the research enterprise and its interactions through a semiotic lens
+            </li>
+            <li className="cv-list-item">
+        Publishing a model for better understanding the role of intermediary organizations in translating research policy
+            </li>
+            <li className="cv-list-item">
+        Collaborating with subject-matter experts to identify communication breakdown in the research landscape
+            </li>
+          </ul>
+        </div>
+      </div>      
 
       <div className="container p-2">
         <h3 className="cv-section-item">
-          Engineering Career Envoy, Penn State College of Engineering,{" "}
-          <em>December 2023 - Present</em>
+          President, Graduate and Professional Student Association
         </h3>
-        <p className="cv-text">
+        <h4>
+          The Pennsylvania State University, University Park, PA; <em>August 2024 - Present</em>
+        </h4>
+        <div className="cv-text">
           <ul className="cv-list list-disc list-inside text-left">
             <li className="cv-list-item">
-              Engaged in student peer mentoring, providing guidance and support
-              to 100+ engineering students
+          Representing all 13,000 graduate students across all 18 academic colleges
+            </li>
+            <li className="cv-list-item">
+          Organizing and marketing social engagement opportunities to bolster community cohesion
+            </li>
+            <li className="cv-list-item">
+        Engaging in discussions on graduate student funding, academic affairs, and institutional decision‑making
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="container p-2">
+        <h3 className="cv-section-item">
+          Engineering Career Envoy - College of Engineering
+        </h3>
+        <h4>
+          The Pennsylvania State University, University Park, PA; <em>December 2023 - Present</em>
+        </h4>
+        <div className="cv-text">
+          <ul className="cv-list list-disc list-inside text-left">
+            <li className="cv-list-item">
+              Mentoring engineering students, providing guidance and support to over 2,000 peers
             </li>
             <li className="cv-list-item">
               Delivered career-focused presentations, conveying essential
               resources and information to engineering students
             </li>
           </ul>
-        </p>
+        </div>
       </div>
 
       <div className="container p-2">
         <h3 className="cv-section-item">
-          Undergraduate Research Assistant, Penn State University,{" "}
-          <em>November 2023 - Present</em>
+          Computer Engineering Intern
         </h3>
-        <p className="cv-text">
+        <h4>
+          RTD Embedded Technologies, Inc., State College, PA; <em>June 2024 - June 2025</em>
+        </h4>        
+        <div className="cv-text">
+          <ul className="cv-list list-disc list-inside text-left">
+            <li className="cv-list-item">
+              Introduced a new IoT RTOS-based product line, developing a custom language parser and kernel extensions
+            </li>
+            <li className="cv-list-item">
+              Regularly interfaced with cross-functional teams, presenting technical data to non-technical audiences
+            </li>
+            <li className="cv-list-item">
+              Researched regulatory and compliance standards to inform product development
+            </li>
+          </ul>
+        </div>
+      </div>           
+
+      <div className="container p-2">
+        <h3 className="cv-section-item">
+          Undergraduate Research Assistant - Computer Systems Lab
+        </h3>
+        <h4>
+          The Pennsylvania State University, University Park, PA; <em>November 2023 - Present</em>
+        </h4>        
+        <div className="cv-text">
           <ul className="cv-list list-disc list-inside text-left">
             <li className="cv-list-item">
 	      Conducting comprehensive research on lock-free and wait-free 
 	      operating systems, contributing to ongoing projects
             </li>
             <li className="cv-list-item">
-	      Analyzing dozens of workshop- and conference papers on computer systems
+	      Analyzing 20+ workshop- and conference papers on computer systems
 	      to assist with writing white papers
             </li>
           </ul>
-        </p>
-      </div>
+        </div>
+      </div> 
 
       <div className="container p-2">
         <h3 className="cv-section-item">
-          Systems Engineering Intern – Defense Mission Systems (BU), Peraton,{" "}
-          <em>June 2023 - August 2023</em>
+          Systems Engineering Intern – Defense Mission Systems (BU)
         </h3>
-        <p className="cv-text">
+        <h4>
+          Peraton, Reston, VA; <em>June 2023 - August 2023</em>
+        </h4>        
+        <div className="cv-text">
           <ul className="cv-list list-disc list-inside text-left">
             <li className="cv-list-item">
               Utilized ROS, Webots, and GNU/Linux to architect modular software
@@ -82,13 +134,17 @@ const CVWorkExperience = () => {
               existing codebases and dependencies
             </li>
           </ul>
-        </p>
+        </div>
       </div>
+
       <div className="container p-2">
         <h3 className="cv-section-item">
-          DevOps Engineer, quub, <em>June 2022 - June 2023</em>
+          DevOps Engineer
         </h3>
-        <p className="cv-text">
+        <h4>
+          quub, Lancaster, PA; <em>June 2022 - June 2023</em>
+        </h4>        
+        <div className="cv-text">
           <ul className="cv-list list-disc list-inside text-left">
             <li className="cv-list-item">
               Administered Docker and Kubernetes clusters to containerize and
@@ -99,13 +155,17 @@ const CVWorkExperience = () => {
               security, and scalability
             </li>
           </ul>
-        </p>
+        </div>
       </div>
+
       <div className="container p-2">
         <h3 className="cv-section-item">
-          Satellite Engineering Intern, quub, <em>October 2020 - June 2022</em>
+          Satellite Engineering Intern
         </h3>
-        <p className="cv-text">
+        <h4>
+          quub, Lancaster, PA; <em>October 2020 - June 2022</em>
+        </h4>         
+        <div className="cv-text">
           <ul className="cv-list list-disc list-inside text-left">
             <li className="cv-list-item">
               Programmed embedded ARM devices in C and Rust using FreeRTOS to
@@ -120,14 +180,17 @@ const CVWorkExperience = () => {
               and buck converters for low-earth orbit satellites
             </li>
           </ul>
-        </p>
+        </div>
       </div>
+
       <div className="container p-2">
         <h3 className="cv-section-item">
-          Summer IT Assistant, Garden Spot High School,{" "}
-          <em>June 2021 - August 2021</em>
+          Summer IT Assistant
         </h3>
-        <p className="cv-text">
+        <h4>
+          Eastern Lancaster County School District, New Holland, PA; <em>June 2021 - August 2021</em>
+        </h4>         
+        <div className="cv-text">
           <ul className="cv-list list-disc list-inside text-left">
             <li className="cv-list-item">
               Administered fleet of 3000 student laptops across 5 school
@@ -143,43 +206,9 @@ const CVWorkExperience = () => {
               routers, switches, and cabling
             </li>
           </ul>
-        </p>
+        </div>
       </div>
-      <div className="container p-2">
-        <h3 className="cv-section-item">
-          Software Engineer, Contractor <em>February 2020 - June 2021</em>
-        </h3>
-        <p className="cv-text">
-          <ul className="cv-list list-disc list-inside text-left">
-            <li className="cv-list-item">
-              Engineered chatbots and data pipelines in Python, leveraging NLP
-              and machine learning techniques
-            </li>
-            <li className="cv-list-item">
-              Collaborated with over 15 clients to gather requirements, propose
-              solutions, and deliver polished products
-            </li>
-          </ul>
-        </p>
-      </div>
-      <div className="container p-2">
-        <h3 className="cv-section-item">
-          Backend Software Engineer, Ruben Engineering,{" "}
-          <em>March 2020 - March 2021</em>
-        </h3>
-        <p className="cv-text">
-          <ul className="cv-list list-disc list-inside text-left">
-            <li className="cv-list-item">
-              Architected REST APIs and database schema to power mobile and web
-              applications
-            </li>
-            <li className="cv-list-item">
-              Implemented core app logic and CRUD operations using PHP, Laravel,
-              MySQL, and Vue.js
-            </li>
-          </ul>
-        </p>
-      </div>
+
     </div>
   );
 };

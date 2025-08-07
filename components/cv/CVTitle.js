@@ -156,11 +156,12 @@ const CVTitle = () => {
       </h2>
       <hr className="cv-linebreak" />
       <div className="flex flex-wrap place-items-center justify-center gap-4 pt-2">
-        <SourcehutLink />
-        <GithubLink />
-        <LinkedInLink />
-        <TwitterLink />
-        <StackLink />
+        <div className="hidden md:flex">
+          <SourcehutLink />
+          <GithubLink />
+          <LinkedInLink />  
+          <StackLink />
+        </div>
       </div>
     </div>
   );

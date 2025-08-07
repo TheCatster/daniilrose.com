@@ -1,30 +1,14 @@
-import Document, { Html, Head, Main, NextScript } from "next/document";
-import { TypographyStyle } from "react-typography";
-import typography from "../utils/typography";
+import { Html, Head, Main, NextScript } from "next/document";
 
-class MyDocument extends Document {
-  static async getInitialProps(ctx) {
-    const initialProps = await Document.getInitialProps(ctx);
-    return { ...initialProps };
-  }
 
-  render() {
-    return (
-      <Html>
-        <Head>
-          {" "}
-          <TypographyStyle typography={typography} />
-          {
-            // eslint-disable-next-line
-          }{" "}
-        </Head>
-        <body className="h-screen bg-white dark:bg-gray-800 text-black dark:text-white">
-          <Main />
-          <NextScript />
-        </body>
-      </Html>
-    );
-  }
+export default function Document() {
+  return (
+    <Html lang="en">
+      <Head />
+      <body className="h-full scroll-smooth text-lg text-black bg-white dark:text-white dark:bg-gray-800">
+        <Main />
+        <NextScript />
+      </body>
+    </Html>
+  );
 }
-
-export default MyDocument;

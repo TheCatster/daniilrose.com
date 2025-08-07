@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import me from "../../public/images/danya.webp";
 import fsf from "../../public/images/fsf.webp";
 import eff from "../../public/images/eff.webp";
@@ -7,30 +8,35 @@ import mensa from "../../public/images/mensa.webp";
 
 const IntroText = () => {
     return (
-        <div className="box-content p-4 text-sm lg:text-md">
+        <div className="text-justify box-content p-4">
             <p>
                 My name is Daniil Rose. I am an integrated undergraduate-graduate (IUG)
 	    	student at The Pennsylvania State University (WE ARE!)- concurrently pursuing
 	    	a master&apos;s in international affairs, a Bachelor of Science in computer engineering,
-	    	and a Bachelor of Science in German. At Penn State, I serve as the <b>President</b> of
+	    	and a Bachelor of Science in German under the supervision of
+            {" "}<Link className="text-orange-feels hover:bg-gray-200 dark:hover:bg-gray-700" href="https://www.backerinlaw.com">Dr. Larry Catá Backer</Link>.
+            At Penn State, I serve as the President of
 	    	the 75th Assembly of the Graduate and Professional Student Association, or <em>GPSA</em>.
-	    	I also have the honor of serving as the <b>emcee</b> for Penn State Homecoming (2025).
+	    	I also have the honor of serving as the emcee for Penn State Homecoming (2025).
             </p>
 	    <p>
-	    	I am passionate about engineering and technology policy,
-                and seek to use my diverse experience in engineering and leadership to
-	    	further the world of policy. In particular, I actively research polycentricity
-	    	in a globalized world from the perspective of artificial intelligence governance.
+	    	I am passionate about science and technology policy,
+                and seek to use my experience in engineering and leadership to
+                further the world of policy. In particular, I actively research the institutional management
+                of the research enterprise through a semiotic lens.
                 On the engineering side, I have experience in a variety of fields: from
-	    	working on bomb-disposal robots to experience developing 
-	    	satellites that have gone to space!
+                working on bomb-disposal robots (in partnership with Oak Ridge National Laboratory) to experience developing
+                satellites that have gone to space!
             </p>
             <p>
-                I worked over the summer as an intern at RTD Embedded Technologies and continued
+                This past summer, I worked for 
+                {" "}<Link className="text-orange-feels hover:bg-gray-200 dark:hover:bg-gray-700" href="https://ieeeusa.org">IEEE</Link>{" "}
+                in Washington D.C., writing a policy proposal about research translation.
+                I previously interned at RTD Embedded Technologies and continued
                 working there throughout the 2024 - 2025 school year, spearheading a new IoT
 	    	product line, designing firmware for embedded systems and
                 designing new processes to enable smoother operations for manufacturing.
-                I previously worked as a systems engineering intern at Peraton Remotec, an embedded
+                Before that, I worked as a systems engineering intern at Peraton Remotec, an embedded
                 systems engineer at Quub, a start-up satellite firm, which included
                 mechanical and electrical components. I designed PCBs and mechanical
                 parts in CAD programs such as KiCad, Eagle, SolidWorks, and Fusion 360,
@@ -116,7 +122,7 @@ const Intro = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center">
             <div className="flex flex-col place-items-center">
                 <IntroImage />
-                <IntroBadges />
+                <IntroBadges /> 
             </div>
             <IntroText />
         </div>
