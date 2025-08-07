@@ -8,6 +8,13 @@ import { getSortedPostsData } from "../../lib/posts";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
+
+  if (!allPostsData) {
+    return {
+      notFound: true,
+    }
+  }
+
   return {
     props: {
       allPostsData,
@@ -41,7 +48,7 @@ export default function Blog({ allPostsData }) {
           <h1 className="text-2xl lg:text-4xl font-bold p-4">Regressions</h1>
           <div className="max-w-md">
             <p className="flex-initial text-justify overflow-wrap pb-2 text-sm lg:text-base">
-              Daniil Rose's comments on current issues in science and technology policy,
+              Daniil Rose&apos;s comments on current issues in science and technology policy,
               higher ed, computers, and whatever else comes to mind.
             </p>
           </div>
@@ -60,14 +67,14 @@ export default function Blog({ allPostsData }) {
                       </h2>
                       <span className="mb-4 text-sm font-light">
                         {" "}
-                        <Date dateString={date} />
+                        <Date dateString={date ? date : "1970-01-01"} />
                       </span>
                       <div className="text-orange-feels">
-                        {tags.map((tag) => (
+                        {tags ? tags.map((tag) => (
                           <span key={tag}>
                               {"#" + tag + " "}
                           </span>
-                        ))}
+                        )) : ""}
                       </div>
                     </header>
                     <section>

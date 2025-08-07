@@ -1,7 +1,6 @@
 import Layout from "../../../components/layout";
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 import { getAllPostIds, getPostData } from "../../../lib/posts";
 import Date from "../../../components/date";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";

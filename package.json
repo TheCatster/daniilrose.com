@@ -60,5 +60,5 @@
         "react-markdown": "^10.1.0",
         "tailwindcss": "^4.1.11"
     },
-    "packageManager": "pnpm@8.15.1"
+    "packageManager": "pnpm@10.14.0"
 }

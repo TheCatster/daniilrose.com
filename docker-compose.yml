@@ -1,0 +1,6 @@
+services:
+  personal-site:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8992:3000"

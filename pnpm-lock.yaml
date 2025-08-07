@@ -8,6 +8,9 @@ dependencies:
   '@headlessui/react':
     specifier: ^2.2.7
     version: 2.2.7(react-dom@19.1.1)(react@19.1.1)
+  '@next/font':
+    specifier: ^14.2.15
+    version: 14.2.15(next@15.4.6)
   '@orgajs/react':
     specifier: ^4.2.0
     version: 4.2.0(react@19.1.1)
@@ -1245,6 +1248,14 @@ packages:
     dependencies:
       fast-glob: 3.3.1
     dev: true
+
+  /@next/font@14.2.15(next@15.4.6):
+    resolution: {integrity: sha512-QopYhBmCDDrNDynbi+ZD1hDZXmQXVFo7TmAFp4DQgO/kogz1OLbQ92hPigJbj572eZ3GaaVxNIyYVn3/eAsehg==}
+    peerDependencies:
+      next: '*'
+    dependencies:
+      next: 15.4.6(react-dom@19.1.1)(react@19.1.1)
+    dev: false
 
   /@next/swc-darwin-arm64@15.4.6:
     resolution: {integrity: sha512-667R0RTP4DwxzmrqTs4Lr5dcEda9OxuZsVFsjVtxVMVhzSpo6nLclXejJVfQo2/g7/Z9qF3ETDmN3h65mTjpTQ==}

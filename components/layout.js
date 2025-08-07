@@ -1,11 +1,15 @@
 import Head from "next/head";
 import Navbar from "./Navbar";
+import { Rubik } from 'next/font/google'
+ 
+// If loading a variable font, you don't need to specify the font weight
+const rubik = Rubik({ subsets: ['latin'], variable: '--font-rubik' })
 
 export const siteTitle = "Daniil Rose";
 
 export default function Layout({ children }) {
   return (
-    <div>
+    <div className={`${rubik.className}`}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
