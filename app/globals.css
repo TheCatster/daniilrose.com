@@ -1,0 +1,122 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* next-themes toggles the `.dark` class on <html>. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Palette derived from the "circuit rose" logo: purple #520078, green #006838. */
+:root {
+  --bg: #fbfafc;
+  --surface: #ffffff;
+  --fg: #1d1a26;
+  --muted: #5c5868;
+  --border: #e8e3ef;
+  --accent: #66108f;
+  --accent-2: #0b7a43;
+  --accent-contrast: #ffffff;
+}
+
+.dark {
+  --bg: #14111c;
+  --surface: #1d1828;
+  --fg: #ece8f3;
+  --muted: #a39db4;
+  --border: #2c2640;
+  --accent: #c79be6;
+  --accent-2: #4cc488;
+  --accent-contrast: #14111c;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
+  --color-accent-contrast: var(--accent-contrast);
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-fraunces), ui-serif, Georgia, serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-serif);
+    color: var(--fg);
+    text-wrap: balance;
+  }
+
+  ::selection {
+    background-color: var(--accent);
+    color: var(--accent-contrast);
+  }
+}
+
+/* Anti-scraping email link: the address is assembled from data-* attributes. */
+.cryptedmail {
+  cursor: pointer;
+}
+
+.cryptedmail::after {
+  content: attr(data-name) "@" attr(data-domain) "." attr(data-tld);
+}
+
+/* Long-form article styling, layered on the typography plugin. */
+.prose-article {
+  --tw-prose-body: var(--fg);
+  --tw-prose-headings: var(--fg);
+  --tw-prose-links: var(--accent);
+  --tw-prose-bold: var(--fg);
+  --tw-prose-quotes: var(--muted);
+  --tw-prose-quote-borders: var(--accent);
+  --tw-prose-bullets: var(--accent);
+  --tw-prose-hr: var(--border);
+  --tw-prose-th-borders: var(--border);
+  --tw-prose-td-borders: var(--border);
+  --tw-prose-captions: var(--muted);
+}
+
+.prose-article :where(h2, h3, h4) {
+  font-family: var(--font-serif);
+}
+
+.prose-article :where(pre) {
+  background-color: #0d1117;
+  color: #e6edf3;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border);
+}
+
+.prose-article :where(code):not(pre code) {
+  background-color: color-mix(in srgb, var(--accent) 14%, transparent);
+  color: var(--fg);
+  padding: 0.15em 0.35em;
+  border-radius: 0.3rem;
+  font-size: 0.9em;
+}
+
+.prose-article :where(table) {
+  font-variant-numeric: tabular-nums;
+}
+
+.prose-article :where(th) {
+  text-align: left;
+  font-weight: 600;
+}

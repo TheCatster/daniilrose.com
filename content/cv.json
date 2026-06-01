@@ -1,0 +1,175 @@
+{
+    "headline": "Systems Engineer & Organizational Researcher",
+    "website": "https://www.daniilrose.com/",
+    "resumeUrl": "https://www.daniilrose.com/files/Resume.pdf",
+    "education": [
+        {
+            "institution": "The Pennsylvania State University",
+            "timeframe": "Expected May 2027",
+            "gpa": "3.82 / 4.00",
+            "degrees": [
+                "Master of International Affairs concentrating in Law, Policy, and Engineering",
+                "Bachelor of Science in Computer Engineering",
+                "Bachelor of Science in German with an emphasis in Business and Engineering"
+            ],
+            "note": "Completing all degrees concurrently through an integrated undergraduate-graduate (IUG) program. Graduate research focuses on science and technology policy, with a publication on blockchain and regulatory systems under submission. Relevant coursework includes international law and legal frameworks, artificial intelligence on embedded systems, large language models, international business communication, policy proposals, operating systems, and computer architecture."
+        }
+    ],
+    "experience": [
+        {
+            "role": "Research Assistant to Prof. Larry Catá Backer",
+            "organization": "Penn State Dickinson Law & School of International Affairs",
+            "location": "University Park, PA",
+            "timeframe": "August 2025 – Present",
+            "highlights": [
+                "Edit and manage chapters for The United Nations Guiding Principles for Business and Human Rights: A Commentary (Oxford University Press), harmonizing citations, style, and cross-references",
+                "Prepare and quality-assure keynote remarks and workshop papers for international venues (ESIL IBHR Workshop, ECLSA Annual Conference, BlockchainGov Symposium, ASCE 2025), coordinating references and talking points",
+                "Draft targeted research memos on UNGP treaty tracks and social credit / \"smart regulation\" to support speech development and slide outlines"
+            ]
+        },
+        {
+            "role": "President",
+            "organization": "Graduate and Professional Student Association",
+            "location": "University Park, PA",
+            "timeframe": "April 2025 – March 2026",
+            "highlights": [
+                "Represented 13,000+ graduate and professional students across 18 academic colleges in high-level negotiations with Penn State administration and state officials",
+                "Led advocacy efforts on student funding, institutional policy, and academic affairs; authored briefing materials and testimony for stakeholders",
+                "Organized public-facing events and coalitions to strengthen community engagement and policy influence"
+            ]
+        },
+        {
+            "role": "Policy Researcher, WISE Intern",
+            "organization": "IEEE-USA",
+            "location": "Washington, D.C.",
+            "timeframe": "June 2025 – August 2025",
+            "highlights": [
+                "Conducted policy research on the U.S. research enterprise and intermediary organizations, publishing a model for improved research translation",
+                "Lobbied on behalf of IEEE-USA's 150,000+ members, meeting with congressional staff and legislators on Capitol Hill",
+                "Presented policy recommendations directly to members of the House Science, Space, and Technology Committee, informing deliberations on federal R&D",
+                "Drafted policy briefs and talking points in coordination with subject-matter experts, tracking bills and hearings on emerging technology issues"
+            ]
+        },
+        {
+            "role": "Career Advisor",
+            "organization": "Penn State Engineering Career Resources",
+            "location": "University Park, PA",
+            "timeframe": "December 2023 – Present",
+            "highlights": [
+                "Advise and coach over 2,000 engineering students on career pathways, including non-traditional roles",
+                "Deliver presentations to student groups and administrators, communicating with diverse audiences"
+            ]
+        },
+        {
+            "role": "Computer Engineering Intern",
+            "organization": "RTD Embedded Technologies, Inc.",
+            "location": "State College, PA",
+            "timeframe": "June 2024 – June 2025",
+            "highlights": [
+                "Introduced a new IoT RTOS-based product line, writing custom kernel extensions and language parsers in C",
+                "Briefed leadership and cross-functional teams on regulatory and technical standards shaping product launch",
+                "Produced documentation and presentations translating complex technical data for non-technical decision-makers"
+            ]
+        },
+        {
+            "role": "Systems Engineering Intern — Defense Mission Systems",
+            "organization": "Peraton (Remotec)",
+            "location": "Reston, VA",
+            "timeframe": "June 2023 – August 2023",
+            "highlights": [
+                "Drafted recommendations to leadership on technology adoption and compliance",
+                "Collaborated with Oak Ridge National Laboratory on generative AI applications for robotics",
+                "Streamlined OTA update workflows, cutting delivery times by 25% and presenting results in leadership briefings"
+            ]
+        },
+        {
+            "role": "Undergraduate Research Assistant — Computer Systems Lab",
+            "organization": "The Pennsylvania State University",
+            "location": "University Park, PA",
+            "timeframe": "November 2023 – Present",
+            "highlights": [
+                "Conduct comprehensive research on lock-free and wait-free operating systems, contributing to ongoing projects",
+                "Analyze 20+ workshop and conference papers on computer systems to assist with writing white papers"
+            ]
+        },
+        {
+            "role": "DevOps Engineer",
+            "organization": "Quub",
+            "location": "Lancaster, PA",
+            "timeframe": "June 2022 – June 2023",
+            "highlights": [
+                "Administered Docker and Kubernetes clusters to containerize and orchestrate more than 20 internal microservices",
+                "Advised 10+ developers on best practices for architecture, security, and scalability"
+            ]
+        },
+        {
+            "role": "Satellite Engineering Intern",
+            "organization": "Quub",
+            "location": "Lancaster, PA",
+            "timeframe": "October 2020 – June 2022",
+            "highlights": [
+                "Programmed embedded ARM devices in C and Rust using FreeRTOS to run experimental satellite payloads",
+                "Constructed an interactive miniature satellite tracker using Python and a Raspberry Pi to visualize orbit positions",
+                "Designed reliable power distribution via solar panels, batteries, and buck converters for low-earth-orbit satellites"
+            ]
+        },
+        {
+            "role": "Summer IT Assistant",
+            "organization": "Eastern Lancaster County School District",
+            "location": "New Holland, PA",
+            "timeframe": "June 2021 – August 2021",
+            "highlights": [
+                "Administered a fleet of 3,000 student laptops across 5 school buildings, ensuring proper software versions and configurations",
+                "Diagnosed hardware and software issues on Windows 10 devices, troubleshooting account access and network connectivity",
+                "Set up wired and wireless networks in computer labs, configuring routers, switches, and cabling"
+            ]
+        }
+    ],
+    "publications": [
+        "Backer, L. C., & Rose, D. (2026). Blockchain Regulatory Systems—Conceptual and Operational Challenges. Manuscript submitted for publication.",
+        "Speaker: \"Earlier Access, Stronger Momentum: Impacting Students' Careers Early\", State of State Conference - Penn State, 2026",
+        "Speaker: \"From Labs to Legislation: The Role of Intermediary Organizations in the Research Ecosystem\", IEEE-USA WISE, 2025",
+        "Speaker: \"Engaging the Unengaged: How We Help Every Student Find Their Place\", State of State Conference - Penn State, 2025",
+        "Speaker: \"GNU's Not UNIX: Why Emacs Demonstrates The UNIX Philosophy Isn't Always The Only Answer\", EmacsConf, 2021"
+    ],
+    "honors": [
+        "Eagle Scout",
+        "Recipient of the Jaime Desmond Leadership Award",
+        "Member of the Institute of Electrical and Electronics Engineers (IEEE)",
+        "Member of the Association for Computing Machinery (ACM)",
+        "Member of the Free Software Foundation (FSF)",
+        "Member of the Electronic Frontier Foundation (EFF)",
+        "Member of Mensa",
+        "Member of Delta Phi Alpha, American Association of Teachers of German (AATG)"
+    ],
+    "skills": {
+        "tools": [
+            "UNIX-like operating systems (GNU/Linux, macOS, FreeBSD)",
+            "FreeRTOS",
+            "TensorFlow and PyTorch-NLP",
+            "Git, GitHub, and GitLab",
+            "CI/CD with GitHub Actions and GitLab CI",
+            "Emacs and Vim",
+            "Docker, Proxmox, and Kubernetes",
+            "Jupyter Lab",
+            "Microsoft Office",
+            "Canvas LMS",
+            "Database management tools (MySQL, SQL Server, Redis)"
+        ],
+        "humanLanguages": [
+            "English (Native)",
+            "Russian (Native)",
+            "German (Advanced — B2)",
+            "Chinese (Elementary — A1)"
+        ],
+        "programmingLanguages": [
+            "Python (5 yrs.)",
+            "C/C++ (5 yrs.)",
+            "Rust (5 yrs.)",
+            "Bash (5 yrs.)",
+            "Verilog (3 yrs.)",
+            "Assembly (3 yrs.)",
+            "Julia (3 yrs.)"
+        ]
+    }
+}

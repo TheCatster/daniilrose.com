@@ -1,0 +1,31 @@
+{
+    "profileImage": "/images/danya.webp",
+    "profileAlt": "Daniil Rose",
+    "affiliations": [
+        {
+            "name": "Institute of Electrical and Electronics Engineers",
+            "abbr": "IEEE",
+            "icon": "ieee"
+        },
+        {
+            "name": "Free Software Foundation",
+            "abbr": "FSF",
+            "icon": "gnu"
+        },
+        {
+            "name": "Lodge No. 700, Grand Lodge of Pennsylvania",
+            "abbr": "FAAM",
+            "icon": "fm"
+        },
+        {
+            "name": "Mensa",
+            "abbr": "M",
+            "mask": "/images/mensa-mark.png"
+        },
+        {
+            "name": "Delta Phi Alpha",
+            "abbr": "ΔΦΑ",
+            "mask": "/images/dpa-mark.png"
+        }
+    ]
+}

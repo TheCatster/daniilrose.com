@@ -1,18 +1,39 @@
-FROM node:lts AS base
+# syntax=docker/dockerfile:1
+
+FROM node:22-bookworm-slim AS base
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
+ENV NEXT_TELEMETRY_DISABLED=1
 RUN corepack enable
-COPY . /app
+
+# Install dependencies once and cache the pnpm store.
+FROM base AS deps
 WORKDIR /app
-
-FROM base AS prod-deps
-RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --prod --frozen-lockfile
-
-FROM base AS build
-RUN apt update && apt install -y python3
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile
-RUN npx next telemetry disable
-RUN pnpm run build
-COPY --from=prod-deps /app/node_modules /app/node_modules
+
+# Build the standalone server. Content is baked in as a default; it is meant to
+# be overridden by a mounted volume at runtime.
+FROM base AS builder
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
+COPY . .
+RUN pnpm build
+
+# Minimal runtime image. Only application code lives here, so content edits in
+# the mounted volume never require rebuilding this image.
+FROM base AS runner
+WORKDIR /app
+ENV NODE_ENV=production
+RUN groupadd -g 1001 nodejs && useradd -r -u 1001 -g nodejs nextjs
+
+COPY --from=builder /app/public ./public
+COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
+COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
+COPY --from=builder --chown=nextjs:nodejs /app/content ./content
+
+USER nextjs
 EXPOSE 3000
-CMD [ "pnpm", "start" ]
+ENV PORT=3000
+ENV HOSTNAME=0.0.0.0
+CMD ["node", "server.js"]

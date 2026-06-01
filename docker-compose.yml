@@ -4,3 +4,11 @@ services:
     restart: unless-stopped
     ports:
       - "8992:3000"
+    environment:
+      # Used to authorize on-demand revalidation (see README).
+      - REVALIDATE_TOKEN=${REVALIDATE_TOKEN:-change-me}
+      # Optional: point at a different content root inside the container.
+      - CONTENT_DIR=/app/content
+    volumes:
+      # Edit files here to update the site without rebuilding the image.
+      - ./content:/app/content:ro

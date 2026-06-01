@@ -1,0 +1,58 @@
+{
+    "name": "Daniil Rose",
+    "shortBio": "Multidisciplinary researcher bridging systems engineering, public policy, and organizational theory to explore institutional memory and governance.",
+    "email": {
+        "name": "daniil.rose",
+        "domain": "posteo",
+        "tld": "org"
+    },
+    "resumeUrl": "https://www.daniilrose.com/files/Resume.pdf",
+    "nav": [
+        {
+            "label": "About",
+            "href": "/"
+        },
+        {
+            "label": "CV",
+            "href": "/cv"
+        },
+        {
+            "label": "Writing",
+            "href": "/blog"
+        }
+    ],
+    "socials": [
+        {
+            "label": "GitHub",
+            "href": "https://github.com/TheCatster",
+            "icon": "github"
+        },
+        {
+            "label": "LinkedIn",
+            "href": "https://www.linkedin.com/in/daniil-rose/",
+            "icon": "linkedin"
+        },
+        {
+            "label": "SourceHut",
+            "href": "https://sr.ht/~thecatster",
+            "icon": "sourcehut"
+        },
+        {
+            "label": "Stack Overflow",
+            "href": "https://stackoverflow.com/u/11846534",
+            "icon": "stackoverflow"
+        },
+        {
+            "label": "ORCID",
+            "href": "https://orcid.org/0009-0001-9527-6186",
+            "icon": "orcid"
+        },
+        {
+            "label": "Google Scholar",
+            "href": "https://scholar.google.com/citations?user=3HTdckMAAAAJ",
+            "icon": "googlescholar"
+        }
+    ],
+    "analyticsWebsiteId": "92fdacb6-2085-4d3d-b97c-8e0764149428",
+    "analyticsSrc": "https://webstats.daniilrose.com/umami.js"
+}

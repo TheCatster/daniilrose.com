@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Research",
+        "items": [
+            "Organizational Theory",
+            "Institutional Memory",
+            "Higher Education Administration",
+            "Science & Technology Policy"
+        ]
+    },
+    {
+        "title": "Programming",
+        "items": [
+            "Rust",
+            "C",
+            "Python",
+            "Clojure"
+        ]
+    },
+    {
+        "title": "Languages",
+        "items": [
+            "Russian",
+            "English",
+            "German",
+            "Simplified Chinese"
+        ]
+    },
+    {
+        "title": "Instruments",
+        "items": [
+            "Vibraphone",
+            "Marimba",
+            "Piano",
+            "Bass"
+        ]
+    }
+]
